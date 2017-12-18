@@ -1,0 +1,26 @@
+title: 96boards.ai
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://96boards.ai" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+
+assets:
+    compress:
+        js: true
+        css: true
+    autoprefixer:
+      browsers: ["last 2 versions","> 5%","IE 9"]
+    sources:
+        - assets
+
+sass:
+    style: compressed
+    sass_dir: assets/css
