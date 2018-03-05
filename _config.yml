@@ -5,22 +5,19 @@ url: "https://96boards.ai" # the base hostname & protocol for your site, e.g. ht
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# Build settings
-markdown: kramdown
+theme: jumbo-jekyll-theme
 
 plugins:
-  - jekyll-feed
-  - jekyll-assets
+  - jekyll-data
 
-assets:
-    compress:
-        js: true
-        css: true
-    autoprefixer:
-      browsers: ["last 2 versions","> 5%","IE 9"]
-    sources:
-        - assets
-
-sass:
-    style: compressed
-    sass_dir: assets/css
+# Jekyll Collections configuration - Projects, Products and Documentation.
+# These are the 96boards.ai collections
+collections:
+    product:
+        output: true
+        permalink: /:collection/:path/
+        layout: ai-product
+    documentation:
+        output: true
+        permalink: /:collection/:path/
+        layout: ai-docs

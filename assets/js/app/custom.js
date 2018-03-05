@@ -1,7 +1,8 @@
 $(document).ready(function () {
 
     "use strict";
-    
+
+
     /* _____________________________________
 
      Device Detection
