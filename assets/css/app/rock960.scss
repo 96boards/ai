@@ -1,0 +1,191 @@
+#meet-rock960 {
+    background: #83d1d6; /* Old browsers */
+    background: -moz-linear-gradient(top, #83d1d6 0%, #2f88bb 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #83d1d6 0%,#2f88bb 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #83d1d6 0%,#2f88bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#2f88bb',GradientType=0 ); /* IE6-9 */    
+    min-height: 600px;
+}
+
+#rock960-details {
+    background: #83d1d6; /* Old browsers */
+    background: -moz-linear-gradient(top, #19689B 0%, #83d1d6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #19689B 0%, #83d1d6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #19689B 0%, #83d1d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#19689B',GradientType=0 ); /* IE6-9 */
+    min-height: 600px;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+#rock960-open-ai-lab {
+    background: #83d1d6; /* Old browsers */
+    background: -moz-linear-gradient(top, #3F969A 0%, #83d1d6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3F969A 0%, #83d1d6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3F969A 0%, #83d1d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#3F969A',GradientType=0 ); /* IE6-9 */
+    min-height: 600px;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+
+#rock960-footer {
+    background: #83d1d6; /* Old browsers */
+    background: -moz-linear-gradient(top, #0C7883 0%, #83d1d6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0C7883 0%, #83d1d6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0C7883 0%, #83d1d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#0C7883',GradientType=0 ); /* IE6-9 */
+    min-height: 600px;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+#rock960-landing-page .container {
+    overflow: hidden;
+}
+
+.col-sm-8.rock960-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+}
+
+a.btn.btn-white-paper-rock960 {
+    background-color: #FFE989;
+    color: black;
+    font-size: 24px;
+    border-radius: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 34px;
+    padding: 10px 29px;
+    margin-top: 80px;
+    
+    transition: all 300ms ease;
+}
+
+a.btn.btn-white-paper-rock960:hover {
+    background-color: #f9d229;
+    color: black;
+}
+
+div#rock960-ai-framework-image {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div#rock960-connectors-image{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.open-ai-image {
+    height: 50px;
+    width: 50px;
+    background-image: url('/assets/images/oaid-3020.jpeg');
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 17px;
+    top: 10px;
+    position: relative;
+}
+
+h1.open-ai-title {
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+span.underline {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #000;
+}
+
+h1#rock960-heading {
+    color: white;
+    font-size: 42px;
+    margin-top: 200px;
+    z-index: 1;
+    position: relative;
+}
+h1#rock960-sub-title {
+    color: white;
+    font-size: 42px;
+    z-index: 1;
+    margin-top: 215px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+div#ai-background {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    width: 1000px;
+    height: 600px;
+    float: right;
+}
+
+p.open-ai-para {
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+@media(max-width:$screen-sm-min){
+    div#ai-background {
+        left: 0;
+    }
+    
+    h1#rock960-sub-title {
+        margin-top: 70px;
+    }
+    
+    div#ai-background {
+        width: 100%;
+    }
+}
+
+
+
+#rock960-landing-page ul {
+    margin-left:0px;
+    padding-left: 0px;
+}
+#rock960-landing-page ul > li {
+    list-style:none;
+    margin-left:0px;
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+    line-height:50px;
+}
+#rock960-landing-page ul > li.bold-li {
+    background-color: white;
+    color:#0C7883;
+    padding-left:10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+
+p.learn-more-text {
+    color: #0c0c0c;
+}
+
+p.learn-more-text a {
+    color: #0C7883;
+    transition: all 300ms ease;
+}
+
+p.learn-more-text a:hover {
+    color: #fff;
+}
