@@ -7,17 +7,7 @@ css-package: home-ai
 <!DOCTYPE html>
 <html lang="en">
     {% include head.html %}
-    <body>
-        <!-- Particle BG -->
-        <div id="page-starfield" class="section-overlay"></div>
-        <!-- /End Particle BG -->
-
-        <!-- Overlay BG -->
-        <div class="section-overlay bg-black overlay-opacity"></div>
-        <!-- /End Overlay BG -->
-        
-        {% include nav.html %}
-
+    <body>    
         {% if site.data.settings.google.tag_manager %}
           {% include gtm-noscript.html %}
         {% endif %}
@@ -27,3 +17,4 @@ css-package: home-ai
         {% include javascript.html %}
     </body>
 </html>
+    
