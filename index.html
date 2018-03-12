@@ -1,35 +1,44 @@
 ---
 layout: 96boards-ai
 ---
-
-<div class="container-fluid" id="board-showcase">
-    <div class="row">
-        
+<div class="container-fluid home-page-container">
+    <div class="row header-row">
+        <a href="/">
+            <img src="{% asset_path 'white-96boards-ai-logo.png' %}" height="86" class="lazyload" id="ai-logo" alt="">
+        </a>
     </div>
-</div>
+    <div class="row content">
+        <div id="board-text">
+            <h1 class="text-center">Rock960</h1>
 
-
-<div class="container-fluid" id="automobile-block">
-    <div class="row">
-        
-    </div>
-</div>
-
-<div class="container-fluid" id="members-block">
-    <div class="row">
-        <div class="container">
-            
+        </div>
+        <div class="carousel" id="ai-board-carousel">
+        	<figure>
+                <!-- <a href="/product/rock960/">
+                    <img src="{% asset_path 'rock960_front.png' %}" id="rock960" alt="Rock 960 Board">
+                </a>
+                <a href="/product/hikey970/">
+                    <img src="{% asset_path 'rock960_front.png' %}" id="hikey970" alt="Hikey970 Board">
+                </a>
+                <a href="/product/hike970/">
+                    <img src="{% asset_path 'rock960_front.png' %}" id="hikey970" alt="Hikey970 Board">
+                </a> -->
+                <img src="{% asset_path 'rock960_front.png' %}" id="rock960" alt="Rock 960 Board">
+                <img src="{% asset_path 'rock960_front.png' %}" id="hikey970" alt="Hikey970 Board">
+                <img src="{% asset_path 'rock960_front.png' %}" id="ultra96" alt="Ultra96 Board">
+        	</figure>
+        	<nav id="ai-board-carousel-nav">
+        		<button class="nav prev">Prev</button>
+                <a class="btn view-more-info" id="view-more-info" href="/products/rock960/">
+                    More info
+                </a>
+        		<button class="nav next">Next</button>
+        	</nav>
         </div>
     </div>
-</div>
-
-<div class="container-fluid" id="board-block">
-    <div class="row">
-        <div class="col-sm-6 board-container">
-            
-        </div>
-        <div class="col-sm-6 board-details">
-            
-        </div>
+    <div class="row footer-row">
+        <a id="view-boards" href="https://www.96boards.org" class="btn view-boards">View 96boards.org</a>
     </div>
 </div>
+
+

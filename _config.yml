@@ -1,5 +1,5 @@
 title: 96boards.ai
-
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://96boards.ai" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -9,15 +9,31 @@ theme: jumbo-jekyll-theme
 
 plugins:
   - jekyll-data
-
+  
+exclude:
+    - .asset-cache
+    - .sass-cache
+    - _site
+    
 # Jekyll Collections configuration - Projects, Products and Documentation.
 # These are the 96boards.ai collections
 collections:
-    product:
+    products:
         output: true
         permalink: /:collection/:path/
-        layout: ai-product
     documentation:
         output: true
         permalink: /:collection/:path/
-        layout: ai-docs
+        
+
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: ai-product
+  - scope:
+      path: ""
+      type: "documentation"
+    values:
+      layout: ai-docs
