@@ -4,6 +4,9 @@
 //= require plugins/starfield.min
 //= require vendor/cookieconsent.min
 //= require vendor/lazysizes.min
+//= require vendor/ls.unveilhooks
+//= require app/jquery.mobile.custom.min
 
 //= require app/main
 //= require app/custom
+
