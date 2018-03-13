@@ -11,6 +11,13 @@ image: white-96boards-ai-logo.png
 
 # Columns to be added to the fospec-button center-block fade-in-twooter
 columns:
+    - title: 96Boards.ai
+      url: /
+      items:
+        - text: About
+          url : /about/
+        - text: Blog
+          url : /blog/
     - title: AI Powered 96Boards
       url: /products/
       items:
@@ -25,6 +32,10 @@ columns:
       items:
         - text: 96Boards
           url : https://96boards.org/
+        - text: OP-TEE
+          url : https://www.op-tee.org
+        - text: DeviceTree
+          url : https://www.devicetree.org
         - text: Developer Cloud
           url : https://linaro.cloud/
         - text: View all
