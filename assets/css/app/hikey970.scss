@@ -1,0 +1,17 @@
+div#hikey970-image {
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:$screen-sm-min){
+    div#hikey970-image {
+        width: 100%;
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+

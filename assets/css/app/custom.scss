@@ -11,7 +11,8 @@ body {
 
 
 img#ai-logo {
-    position: absolute;
+    position: fixed;
     top: -2px;
     height: 76px;
+    z-index: 1;
 }

@@ -28,14 +28,12 @@
     padding-bottom:70px;
 }
 
-
 #rock960-footer {
     background: #83d1d6; /* Old browsers */
     background: -moz-linear-gradient(top, #0C7883 0%, #83d1d6 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #0C7883 0%, #83d1d6 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #0C7883 0%, #83d1d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#0C7883',GradientType=0 ); /* IE6-9 */
-    min-height: 600px;
     padding-top:70px;
     padding-bottom:70px;
 }
@@ -45,9 +43,7 @@
 }
 
 .col-sm-8.rock960-image {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 400px;
+    margin-top: 15px;
 }
 
 a.btn.btn-white-paper-rock960 {
@@ -59,7 +55,7 @@ a.btn.btn-white-paper-rock960 {
     font-weight: bold;
     line-height: 34px;
     padding: 10px 29px;
-    margin-top: 80px;
+    margin-top: 20px;
     
     transition: all 300ms ease;
 }
@@ -71,14 +67,16 @@ a.btn.btn-white-paper-rock960:hover {
 
 div#rock960-ai-framework-image {
     width: 100%;
-    height: 100%;
+    height: 400px;
     background-size: contain;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 div#rock960-connectors-image{
     width: 100%;
-    height: 100%;
+    height: 400px;
     background-size: contain;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -150,6 +148,19 @@ p.open-ai-para {
     div#ai-background {
         width: 100%;
     }
+    
+    div#rock960-ai-framework-image {
+        width: 100%;
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    div#rock960-connectors-image{
+        width: 100%;
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
 
 
@@ -188,4 +199,42 @@ p.learn-more-text a {
 
 p.learn-more-text a:hover {
     color: #fff;
+}
+
+
+#rock960-footer ul > li > a {
+    color: white;
+    border-bottom: 1px solid #fff;
+    transition: all 1s ease;
+}
+
+#rock960-footer ul > li > a:hover {
+    text-decoration: none;
+    color: #0c7883;
+}
+
+
+#rock960-footer li.block-li {
+    height: 88px;
+    border-radius: 24px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    
+    transition: all 1s ease;
+}
+
+#rock960-footer li.block-li.getting-started {
+    background-color: #AA7942;
+}
+#rock960-footer li.block-li.resources {
+    background-color: #FDCB56;
+    color:black;
+}
+#rock960-footer li.block-li.support {
+    background-color: #8ABE5E;
+}
+
+ul.rock960-detail-list {
+    text-align: center;
 }
