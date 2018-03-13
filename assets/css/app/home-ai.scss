@@ -45,7 +45,7 @@ a#view-more-info:hover {
 
 
 #board-text > h1 {
-    font-size: 25px;
+    font-size: 50px;
     color: white;
 }
 
@@ -86,14 +86,39 @@ a#view-boards {
     padding-right: 15px;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+	overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
 }
 
 
+@media(max-width: $screen-sm-min) {
+	#ai-board-carousel figure{
+		width: 100vw;
+	}
+	#ai-board-carousel figure img{
+		padding: 0 10px;
+	}
+}
+html, body { 
+    overflow-x: hidden; 
+    background: #000; 
+    padding: 0px; margin: 0px; 
+    width: 100%; height: 100%; 
+}
+.fullScreen { 
+    height: 100%;
+	width: 100%;
+	position: relative;
+}
+canvas#canvas2d {
+    height: 100vh;
+    width: 100vw;
+}
 // Carousel configuration parameters
 $n: 3;
-$item-width: 650px;
-$item-separation: 150px;
+$item-width: 50vw;
+$item-separation: 100px;
 $viewer-distance: 500px;
 
 // Derived variables
@@ -102,10 +127,7 @@ $apothem: 482.842712474619px;
 
 .carousel {
 	padding: 20px;
-
-	perspective: $viewer-distance;
-	overflow: hidden;
-	
+	perspective: $viewer-distance;	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -125,9 +147,7 @@ $apothem: 482.842712474619px;
 			width: 100%;
 			box-sizing: border-box;
 			padding: 0 $item-separation / 2;
-			
-			opacity: 0.9;
-			
+						
 			&:not(:first-of-type) {
 				position: absolute;
 				left: 0;
