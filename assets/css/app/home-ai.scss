@@ -60,9 +60,10 @@ a#view-more-info:hover {
 }
 
 .row.content {
-    top: 100px;
     position: relative;
 }
+
+
 
 
 // View 96boards button.
@@ -125,6 +126,7 @@ $viewer-distance: 500px;
 $theta: 2 * 3.141592653589793 / $n; 
 $apothem: 482.842712474619px;
 
+
 .carousel {
 	padding: 20px;
 	perspective: $viewer-distance;	
@@ -154,13 +156,14 @@ $apothem: 482.842712474619px;
 				top: 0;
 				transform-origin: 50% 50% (-$apothem);
 			}
-			
+				
 			@for $i from 2 through $n {
 				&:nth-child(#{$i}) {
 					transform: rotateY(#{($i - 1) * $theta}rad);
 				}
 			}
 		}
+		
 	}
 	
 	nav {
@@ -182,4 +185,19 @@ $apothem: 482.842712474619px;
 		}
 	}
 	
+}
+
+
+nav#ai-board-carousel-nav {
+    height: auto;
+    margin-bottom: 100px;
+}
+
+div#ai-board-carousel {
+    height: auto;
+    margin-bottom: 100px;
+}
+
+div#particles-js {
+    position: absolute;
 }
