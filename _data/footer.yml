@@ -16,8 +16,6 @@ columns:
       items:
         - text: About
           url : /about/
-        - text: Blog
-          url : /blog/
     - title: AI Powered 96Boards
       url: /products/
       items:

@@ -17,7 +17,7 @@ edit-on-github:
 # Mailchimp settings
 mailchimp:
     enabled: true
-    id: e3d2abc041
+    id: fdc7b4b109
     
 # Footer Newsletter toggle.
 newsletter:
@@ -91,7 +91,7 @@ blog:
         #       display_fields:
         #           title: title
         #           url: url
-                  
+  
 #Google analytics
 google:
     tag_manager: GTM-NTTN9C3
