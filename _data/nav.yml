@@ -16,15 +16,7 @@ brand:
 pages:
     - title: About
       url: /about/
-    - title: News & Blog
-      options:
-          - text: Press Releases & News
-            url: /news/
-          - text: Blog
-            url: /blog/
     - title: Products
       url: /products/
-    - title: Documentation
-      url: /documentation/
     - title: Contact
       url: /contact/
