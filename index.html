@@ -5,37 +5,32 @@ js-package: home-ai
 ---
 
 
-<div class="container-fluid home-page-container">
-    <div class="row header-row">    
-        <a href="/">
-            <img src="{% asset_path 'white-96boards-ai-logo.png' %}" height="86" class="lazyload" id="ai-logo" alt="">
-        </a>
-    </div>
+<div class="container-fluid">
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
     <div class="row content">
-        <div id="board-text">
-            <h1 class="text-center">Rock960</h1>
+        <div class="container">
+            <div id="board-text">
+                <h1 class="text-center">Rock960</h1>
+            </div>
+            <div class="carousel" id="ai-board-carousel">
+                <figure>
+                    <img src="{% asset_path 'rock960_front.png' %}" id="rock960" alt="Rock 960 Board">
+                    <img src="{% asset_path 'Hikey970-96boards-ai-image.png' %}" id="hikey970" alt="Hikey970 Board">
+                    <img src="{% asset_path 'ultra-96-front-hd.png' %}" id="ultra96" alt="Ultra96 Board">
+                </figure>
+                <nav id="ai-board-carousel-nav">
+                    <button class="nav prev">Prev</button>
+                    <a class="btn view-more-info" id="view-more-info" href="/products/rock960/">
+                        More info
+                    </a>
+                    <button class="nav next">Next</button>
+                </nav>
+            </div>
+        </div>
 
-        </div>
-        <div class="carousel" id="ai-board-carousel">
-        	<figure>
-                <img src="{% asset_path 'rock960_front.png' %}" id="rock960" alt="Rock 960 Board">
-                <img src="{% asset_path 'Hikey970-96boards-ai-image.png' %}" id="hikey970" alt="Hikey970 Board">
-                <img src="{% asset_path 'ultra-96-front-hd.png' %}" id="ultra96" alt="Ultra96 Board">
-        	</figure>
-        	<nav id="ai-board-carousel-nav">
-        		<button class="nav prev">Prev</button>
-                <a class="btn view-more-info" id="view-more-info" href="/products/rock960/">
-                    More info
-                </a>
-        		<button class="nav next">Next</button>
-        	</nav>
-        </div>
-    </div>
-    <div class="row footer-row">
-        <a id="view-boards" href="https://www.96boards.org" class="btn view-boards">View 96boards.org</a>
     </div>
 </div>
-<!-- particles.js container -->
-<div id="particles-js"></div>
+
 
 
