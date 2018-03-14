@@ -7,6 +7,8 @@ github_username:  jekyll
 
 theme: jumbo-jekyll-theme
 
+destination: staging.96boards.ai
+
 plugins:
   - jekyll-data
   
@@ -25,15 +27,3 @@ collections:
         output: true
         permalink: /:collection/:path/
         
-
-defaults:
-  - scope:
-      path: ""
-      type: "products"
-    values:
-      layout: ai-product
-  - scope:
-      path: ""
-      type: "documentation"
-    values:
-      layout: ai-docs
