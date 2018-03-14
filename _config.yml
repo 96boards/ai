@@ -8,6 +8,8 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+destination: staging.96boards.ai
+
 plugins:
   - jekyll-feed
   - jekyll-assets
