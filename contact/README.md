@@ -19,7 +19,7 @@ css-pack: contact
           <h1>Contact Info</h1>
           <address>
             96boards.ai c/o Linaro<br />
-            Harston Mill<br />
+            Harston Mill<br />  
             Royston Rd<br />
             Harston<br />
             Cambridge<br />
@@ -27,8 +27,15 @@ css-pack: contact
           </address>
       </div>
       <div class="col-md-8">
-          <iframe id="contact-form" src="https://services.cognitoforms.com/f/KvRQmIn2dku6k6gGP711jw?id=3" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="522" width="100%"></iframe>
-          <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+          <div class="cognito">
+              <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
+              <script>
+                  Cognito.load("forms", { id: "11", entry: {
+                    "PageUrl": "{{site.url}}{{page.url}}" ,
+                    "RedirectUrl" : "{{site.url}}/thank-you/?ref={{page.url}}"
+                  }});
+              </script>
+          </div>
       </div>
       </div>
     </div>

@@ -6,12 +6,129 @@ div#hikey970-image {
     background-repeat: no-repeat;
 }
 
+#hikey970 h1.text-center {
+    color: white;
+    font-size: 70px;
+}
+
+#hikey970-intro-content h3 {
+    color: red;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+div#super-edge-ai {
+    padding: 10px 50px;
+    border: 1px solid #ececec;
+    margin-top: 45px;
+}
+
+ul#board-features {
+    color: white;
+    font-size: 26px;
+    margin-top: 28px;
+}
+
+
+
+//Tags
+div#hikey970-tags {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: #121E2c;
+    padding: 4px;
+    margin-top: 25px;
+    color: white;
+    font-size: 12px;
+}
+
+#hikey970-tags h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+div#hikey970 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122231+0,081118+100 */
+    background: #122231; /* Old browsers */
+    background: -moz-linear-gradient(top, #122231 0%, #081118 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #122231 0%,#081118 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #122231 0%,#081118 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122231', endColorstr='#081118',GradientType=0 ); /* IE6-9 */
+}
+
+// Descriptions
+
+div#hikey970-descriptions {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#081118+0,122231+99 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#081118+0,122231+100 */
+background: #081118; /* Old browsers */
+background: -moz-linear-gradient(top, #081118 0%, #122231 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #081118 0%,#122231 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #081118 0%,#122231 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081118', endColorstr='#122231',GradientType=0 ); /* IE6-9 */
+}
+
+div#hikey970-tag-descriptions {
+    background-image: url('/assets/Hikey970-96boards-ai-image-resized.png');
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:10px
+}
+
+#hikey970-descriptions .col-sm-3 p {
+    color: white;
+}
+
+#hikey970-descriptions .col-sm-3 h3 {
+    color: #ff0101;
+}
+
+#hikey970-descriptions .col-sm-3 {
+    padding:0 20px;
+}
+
+
 @media(max-width:$screen-sm-min){
+    
+    div#hikey970-tag-descriptions {
+        background-color: #011121 !important;
+        margin-top:10px
+    }
+    
     div#hikey970-image {
         width: 100%;
         height: 150px;
         background-size: contain;
         background-repeat: no-repeat;
     }
-}
+    
+    #hikey970 h1.text-center {
+        color: white;
+        font-size: 40px;
+    }
+    
+    #hikey970-intro-content h3 {
+        color: red;
+        font-size: 28px;
+        font-weight: normal;
+    }
+    
+    div#super-edge-ai {
+        padding: 10px 30px;
+        border: 1px solid #ececec;
+        margin-top: 30px;
+    }
 
+    ul#board-features {
+        color: white;
+        font-size: 22px;
+        margin-top: 28px;
+    }
+    
+    #hikey970-tags h3 {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    
+}

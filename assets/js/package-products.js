@@ -4,6 +4,7 @@
 //= require vendor/cookieconsent.min
 //= require vendor/lazysizes.min
 //= require vendor/ls.unveilhooks
+//= require vendor/mc-validate
 //= require vendor/owl.carousel.min
 //= require app/jquery.mobile.custom.min
 
