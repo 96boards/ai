@@ -1,5 +1,6 @@
 ---
 title: Ultra96
+permalink: /products/ultra96/
 description: |-
     Meet Ultra96 - A platform to build for Machine Learning / Automotive / Industrial IoT
 image:
