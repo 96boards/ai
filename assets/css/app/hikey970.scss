@@ -19,8 +19,6 @@ div#hikey970-image {
 
 div#super-edge-ai {
     padding: 10px 50px;
-    border: 1px solid #ececec;
-    margin-top: 45px;
 }
 
 ul#board-features {
@@ -37,7 +35,6 @@ div#hikey970-tags {
     border-bottom: 1px solid #fff;
     background-color: #121E2c;
     padding: 4px;
-    margin-top: 25px;
     color: white;
     font-size: 12px;
 }
@@ -48,13 +45,24 @@ div#hikey970-tags {
 }
 
 div#hikey970 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122231+0,081118+100 */
-    background: #122231; /* Old browsers */
-    background: -moz-linear-gradient(top, #122231 0%, #081118 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #122231 0%,#081118 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #122231 0%,#081118 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122231', endColorstr='#081118',GradientType=0 ); /* IE6-9 */
+    background: #091019; /* Old browsers */
 }
 
+div#hikey970-intro-content{
+    
+    background-image:url(/assets/images/hikey970-optimized.png);
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(/assets/images/hikey970-optimized.png);
+
+    background-repeat:no-repeat;
+    background-position-x: right;
+}
 // Descriptions
 
 div#hikey970-descriptions {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#081118+0,122231+99 */
@@ -111,8 +119,6 @@ div#hikey970-tag-descriptions {
     
     div#super-edge-ai {
         padding: 10px 30px;
-        border: 1px solid #ececec;
-        margin-top: 30px;
     }
 
     ul#board-features {
