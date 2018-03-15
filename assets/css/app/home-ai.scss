@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	font-family: 'Arial';
 	font-size: 16px;
-	
 	display: flex;
     flex-direction: column;
     height: 100vh;
@@ -43,10 +42,22 @@ a#view-more-info:hover {
     color: #000;
 }
 
+div#board-text {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	z-index: 99999;
+	display: inline-block;
+}
 
 #board-text > h1 {
-    font-size: 50px;
+    font-size: 25px;
     color: white;
+	margin-bottom: 0;
+	height: 66px;
+	margin-top:0;
+	line-height: 66px;
 }
 
 // Board Carousel Button
@@ -92,6 +103,9 @@ a#view-boards {
     z-index: 2;
 }
 
+div#wrapper.main {
+    position: relative;
+}
 
 @media(max-width: $screen-sm-min) {
 	#ai-board-carousel figure{
@@ -107,6 +121,17 @@ html, body {
     padding: 0px; margin: 0px; 
     width: 100%; height: 100%; 
 }
+
+div#board-text {
+    height: 66px;
+    line-height: 66px;
+}
+
+h1.text-center {
+    line-height: 66px;
+}
+
+
 .fullScreen { 
     height: 100%;
 	width: 100%;
@@ -146,6 +171,13 @@ $apothem: 482.842712474619px;
 		transform-origin: 50% 50% (-$apothem);
 		
 		img {
+			// Disable selection on the image
+			-khtml-user-select: none;
+			-o-user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			user-select: none;
+  
 			width: 100%;
 			box-sizing: border-box;
 			padding: 0 $item-separation / 2;
@@ -187,10 +219,8 @@ $apothem: 482.842712474619px;
 	
 }
 
-
 nav#ai-board-carousel-nav {
     height: auto;
-    margin-bottom: 100px;
 }
 
 div#ai-board-carousel {

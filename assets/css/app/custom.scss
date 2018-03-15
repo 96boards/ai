@@ -16,3 +16,34 @@ img#ai-logo {
     height: 76px;
     z-index: 1;
 }
+
+img#boards-footer-logo {
+    position: relative;
+    top: 17px;
+}
+
+
+img.footer-logo{
+	transition: all 500ms ease;
+}
+img.footer-logo:hover{
+	opacity:.5;
+}
+
+.container-fluid.footer {
+    position: relative;
+    border-top: 1px solid #191919;
+}
+
+.footer-strip {
+    border-top: 1px #191919 solid;
+}
+
+a.btn.btn-social-icon {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+a.btn.btn-social-icon i {
+    margin-right: 0;
+}
