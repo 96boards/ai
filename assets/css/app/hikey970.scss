@@ -67,23 +67,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081118', end
 }
 
 div#hikey970-tag-descriptions {
-    background-image: url('/assets/images/hikey970-optimized.png');
-    background-size: 50% auto;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top:10px
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
-#hikey970-descriptions .col-sm-3 p {
+#hikey970-descriptions .col-sm-4 p {
     color: white;
 }
 
-#hikey970-descriptions .col-sm-3 h3 {
+#hikey970-descriptions .col-sm-4 h3 {
     color: #ff0101;
 }
 
-#hikey970-descriptions .col-sm-3 {
+#hikey970-descriptions .col-sm-4 {
     padding:0 20px;
 }
 
