@@ -1629,7 +1629,7 @@ $(document).ready(function(){
           "detect_on": "window",
           "events": {
             "onhover": {
-              "enable": true,
+              "enable": false,
               "mode": "repulse"
             },
             "onclick": {
@@ -1651,9 +1651,6 @@ $(document).ready(function(){
               "duration": 2,
               "opacity": 8,
               "speed": 3
-            },
-            "repulse": {
-              "distance": 200
             },
             "push": {
               "particles_nb": 4
