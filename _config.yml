@@ -25,10 +25,10 @@ collections:
         permalink: /:collection/:path/
     documentation:
         output: true
-        
+
+
 defaults:
   - scope:
         type: "documentation"
     values:
         layout: "container-breadcrumb-tabs"
-
