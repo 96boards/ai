@@ -9,6 +9,8 @@ theme: jumbo-jekyll-theme
 
 destination: staging.96boards.ai
 
+destination: production.96boards.ai
+
 plugins:
   - jekyll-data
   
@@ -26,9 +28,9 @@ collections:
     documentation:
         output: true
 
-
 defaults:
   - scope:
         type: "documentation"
     values:
         layout: "container-breadcrumb-tabs"
+
