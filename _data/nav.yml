@@ -11,12 +11,14 @@ brand:
     text: 96boards.ai
     image: 
         enabled: true
-        name: white-96boards-ai-logo.png
+        name: 96Boards-ai-logo-revised.png
     url: /
 pages:
     - title: About
       url: /about/
     - title: Products
       url: /products/
+    - title: Documentation
+      url: /documentation/
     - title: Contact
       url: /contact/
