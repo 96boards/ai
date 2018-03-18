@@ -33,4 +33,8 @@ defaults:
         type: "documentation"
     values:
         layout: "container-breadcrumb-tabs"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-media-image.png
 
