@@ -1,11 +1,10 @@
-//= require plugins/jquery1.11.2.min
-//= require plugins/bootstrap.min
-//= require plugins/scrollreveal.min
+//= require vendor/jquery.min
+//= require vendor/bootstrap.min
 //= require vendor/cookieconsent.min
 //= require vendor/lazysizes.min
 //= require vendor/ls.unveilhooks
 //= require vendor/mc-validate
-//= require app/jquery.mobile.custom.min
+//= require app/sticky-tab-bar
 
 //= require app/main
 //= require app/particles

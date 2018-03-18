@@ -46,22 +46,22 @@ $(document).ready(function () {
         
         // Rock960
         if(figure.id == 0){
-            board_text.innerHTML = "<h1 class='text-center'>Rock960<h1>";
-            board_more_info.href = "/products/rock960/";
+            board_text.innerHTML = "<h1 class='text-center'>Ultra96<h1>";
+            board_more_info.href = "/products/ultra96/";
             $("button.nav.prev").css("opacity",".5");
             $("button.nav.next").css("opacity","1");
         }
         else if (figure.id == 1) {
 
-            board_text.innerHTML = "<h1 class='text-center'>Hikey970<h1>";
-            board_more_info.href = "/products/hikey970/";
+            board_text.innerHTML = "<h1 class='text-center'>Rock960<h1>";
+            board_more_info.href = "/products/rock960/";
             $("button.nav.prev").css("opacity","1");
             $("button.nav.next").css("opacity","1");
 
         }
         else if (figure.id == 2) {
-            board_text.innerHTML = "<h1 class='text-center'>Ultra96<h1>";
-            board_more_info.href = "/products/ultra96/";
+            board_text.innerHTML = "<h1 class='text-center'>Hikey970<h1>";
+            board_more_info.href = "/products/hikey970/";
             $("button.nav.next").css("opacity",".5");
             
         }
