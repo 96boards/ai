@@ -1,240 +1,118 @@
-#meet-rock960 {
-    background: #83d1d6; /* Old browsers */
-    background: -moz-linear-gradient(top, #83d1d6 0%, #2f88bb 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #83d1d6 0%,#2f88bb 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #83d1d6 0%,#2f88bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#2f88bb',GradientType=0 ); /* IE6-9 */    
-    min-height: 600px;
+#ultra96-intro-content {
+    color: white; 
 }
 
-#rock960-details {
-    background: #83d1d6; /* Old browsers */
-    background: -moz-linear-gradient(top, #19689B 0%, #83d1d6 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #19689B 0%, #83d1d6 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #19689B 0%, #83d1d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#19689B',GradientType=0 ); /* IE6-9 */
-    min-height: 600px;
-    padding-top:70px;
-    padding-bottom:70px;
-}
-#rock960-open-ai-lab {
-    background: #83d1d6; /* Old browsers */
-    background: -moz-linear-gradient(top, #3F969A 0%, #83d1d6 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #3F969A 0%, #83d1d6 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #3F969A 0%, #83d1d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#3F969A',GradientType=0 ); /* IE6-9 */
-    min-height: 600px;
-    padding-top:70px;
-    padding-bottom:70px;
-}
-
-#rock960-footer {
-    background: #83d1d6; /* Old browsers */
-    background: -moz-linear-gradient(top, #0C7883 0%, #83d1d6 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #0C7883 0%, #83d1d6 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #0C7883 0%, #83d1d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1d6', endColorstr='#0C7883',GradientType=0 ); /* IE6-9 */
-    padding-top:70px;
-    padding-bottom:70px;
-}
-
-#rock960-landing-page .container {
-    overflow: hidden;
-}
-
-.col-sm-8.rock960-image {
-    margin-top: 15px;
-}
-
-a.btn.btn-white-paper-rock960 {
-    background-color: #FFE989;
-    color: black;
-    font-size: 24px;
-    border-radius: 22px;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 34px;
-    padding: 10px 29px;
-    margin-top: 20px;
-    
-    transition: all 300ms ease;
-}
-
-a.btn.btn-white-paper-rock960:hover {
-    background-color: #f9d229;
-    color: black;
-}
-
-div#rock960-ai-framework-image {
-    width: 100%;
-    height: 400px;
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-div#rock960-connectors-image{
-    width: 100%;
-    height: 400px;
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.open-ai-image {
-    height: 50px;
-    width: 50px;
-    background-image: url('/assets/images/oaid-3020.jpeg');
-    background-size: contain;
-    display: inline-block;
-    background-repeat: no-repeat;
-    margin-left: 17px;
-    top: 10px;
-    position: relative;
-}
-
-h1.open-ai-title {
+#ultra96-intro-content p {
     color: white;
-    margin-bottom: 50px;
 }
-
-
-span.underline {
-    padding-bottom: 3px;
-    border-bottom: 2px solid #000;
-}
-
-h1#rock960-heading {
+#ultra-heading {
     color: white;
-    font-size: 42px;
-    margin-top: 200px;
-    z-index: 1;
-    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
-h1#rock960-sub-title {
+
+img.img-responsive.ultra96-image {
+    height: auto;
+    margin: auto auto;
+    width: 30vw;
+    margin-bottom: 40px;
+}
+
+div#ultra96-intro-content {
+    background-color: white;
+    color: #000;
+}
+
+div#ultra96-intro-content p {
+    background-color: white;
+    color: #000;
+}
+
+#image-row {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #2989d8 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #1e5799 0%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+div#ultra96-platforms {
+    background-color: #2987d5;
+}
+
+h1#platforms-title span {
+    color: whte;
+}
+
+div#ultra96-members {
+    background-color: white;
+}
+
+div#ultra96-platforms-to-build {
+    background-color: white;
+}
+
+img.img-responsive.ultra96-member-image.lazyloaded {
+    height: 140px;
+    width: auto;
+    padding:40px;
+}
+#plaforms-title span {
     color: white;
-    font-size: 42px;
-    z-index: 1;
-    margin-top: 215px;
-    position: relative;
-    text-transform: uppercase;
 }
 
-div#ai-background {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: absolute;
-    right: 0;
-    width: 1000px;
-    height: 600px;
-    float: right;
-}
-
-p.open-ai-para {
-    color: white;
-    font-size: 20px;
-    line-height: 26px;
-}
-
-@media(max-width:$screen-sm-min){
-    div#ai-background {
-        left: 0;
-    }
-    
-    h1#rock960-sub-title {
-        margin-top: 70px;
-    }
-    
-    div#ai-background {
-        width: 100%;
-    }
-    
-    div#rock960-ai-framework-image {
-        width: 100%;
-        height: 150px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    div#rock960-connectors-image{
-        width: 100%;
-        height: 150px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
+h1#plaforms-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
-
-#rock960-landing-page ul {
-    margin-left:0px;
+#ultra96-platforms-to-build ul {
+    list-style: none;
     padding-left: 0px;
 }
-#rock960-landing-page ul > li {
-    list-style:none;
-    margin-left:0px;
-    color:white;
-    font-size:26px;
-    font-weight:bold;
-    line-height:50px;
-}
-#rock960-landing-page ul > li.bold-li {
-    background-color: white;
-    color:#0C7883;
-    padding-left:10px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    letter-spacing: -1px;
+#ultra96-platforms-to-build {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-
-p.learn-more-text {
-    color: #0c0c0c;
-}
-
-p.learn-more-text a {
-    color: #0C7883;
-    transition: all 300ms ease;
-}
-
-p.learn-more-text a:hover {
-    color: #fff;
-}
-
-
-#rock960-footer ul > li > a {
+div#buy-block {
+    background-color: #2987d5;
     color: white;
-    border-bottom: 1px solid #fff;
-    transition: all 1s ease;
 }
 
-#rock960-footer ul > li > a:hover {
-    text-decoration: none;
-    color: #0c7883;
+#buy-board-text ul {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 25px;
 }
 
+#buy-board-image > img{
+    height:auto;
+    width: 80%;
+}
 
-#rock960-footer li.block-li {
-    height: 88px;
-    border-radius: 24px;
-    width: 100%;
-    padding: 20px;
-    margin-top: 30px;
+a.btn.buy-board-btn {
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    margin-top:10px;
     
-    transition: all 1s ease;
+    transition: all 500ms ease;
+}
+a.btn.buy-board-btn:hover {
+    background-color: #24283e;
+    color: white;
+    margin-bottom: 20px;
 }
 
-#rock960-footer li.block-li.getting-started {
-    background-color: #AA7942;
-}
-#rock960-footer li.block-li.resources {
-    background-color: #FDCB56;
-    color:black;
-}
-#rock960-footer li.block-li.support {
-    background-color: #8ABE5E;
+a.btn.buy-board-btn.center {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
-ul.rock960-detail-list {
-    text-align: center;
+#buy-board-text a {
+    color:#24283e;
 }

@@ -88,7 +88,7 @@
 }
 
 .product-short-description {
-    min-height: 90px;
+    min-height: 120px;
     height: auto;
     font-size: 12px;
     text-align: center;
@@ -100,6 +100,10 @@
     vertical-align:middle;
     margin-bottom:3px;
 }
+.product-short-description p {
+    font-size: 12px;
+}
+
 
 #grid a.btn.btn-primary.btn-read-more.center-block {
     background-color: #999999;
@@ -225,6 +229,14 @@ span.buy-price {
     margin-bottom: 30px;
 }
 
+.coming-soon {
+    text-align: center;
+    background-color: #eee;
+    height: 40px;
+    line-height: 40px;
+    color: #a5a5a5;
+    user-select: none;
+}
 
 @media(max-width:991px){
     .product-short-description {
