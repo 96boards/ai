@@ -20,8 +20,15 @@ columns:
           url : /products/hikey970/
         - text: Ultra96
           url : /products/ultra96/
-    - title:
-      url:
+    - title: Documentation
+      url: /documentation/
+      items:
+        - text: Rock960
+          url : /documentation/rock960/
+        - text: Hikey970
+          url : /documentation/hikey970/
+        - text: Ultra96
+          url : /documentation/ultra96/
     - title:
       url:
     - title:
