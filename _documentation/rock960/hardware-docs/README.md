@@ -9,7 +9,7 @@ Explore what makes your ROCK960 unique, technical specifications, schematics, ha
 
 ## Hardware
 
-[Hardware User Manual](hardware-user-manual.md)
+[Hardware User Manual](hardware-user-manual.md.html)
 
 - Schematics [Download](https://dl.vamrs.com/products/rock960/docs/hw/rock960_sch_v1.1.pdf)(.pdf)
 - BOM [Download](https://dl.vamrs.com/products/rock960/docs/hw/rock960_bom_v1.1.xls)(.xls)

@@ -42,7 +42,7 @@ Go to the [Downloads page](../downloads/) to get your bootloader, boot image, an
 
 Choose host machine
 
-- [Linux/macOS](linux-mac-rkdeveloptool.md)
+- [Linux/macOS](linux-mac-rkdeveloptool.md.html)
 
 ***
 
@@ -62,9 +62,9 @@ Go to the [Downloads page](../downloads/) to get your SD card image.
 
 Choose host machine
 
-- [Linux](linux-sd.md)
-- [Mac](mac-sd.md)
-- [Windows](windows-sd.md)
+- [Linux](linux-sd.md.html)
+- [Mac](mac-sd.md.html)
+- [Windows](windows-sd.md.html)
 
 ***
 

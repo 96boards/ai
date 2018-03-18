@@ -40,6 +40,6 @@ Go to the [Downloads page](../downloads/) to get your SD card image.
 
 Choose host machine
 
-- [Linux](LinuxSD.md)
-- [Mac](MacSD.md)
-- [Windows](WindowsSD.md)
+- [Linux](LinuxSD.md.html)
+- [Mac](MacSD.md.html)
+- [Windows](WindowsSD.md.html)

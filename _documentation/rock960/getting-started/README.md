@@ -12,11 +12,11 @@ Learn about your ROCK960 board as well as how to prepare and set up for basic us
 **Need**
 - [ROCK960](https://www.96boards.org/product/rock960/) standard package
    - ROCK960 boards and other accessories
-- [Power adapter](PowerAdapter.md)
+- [Power adapter](PowerAdapter.md.html)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter, included in the standard package
-- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
+- [USB Keyboard and Mouse](USBKeyBoardMouse.md.html)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- [Monitor](Monitor.md) and [HDMI Cable](hdmi.md)
+- [Monitor](Monitor.md.html) and [HDMI Cable](hdmi.md.html)
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 
 **Optional**
@@ -91,7 +91,7 @@ The package comes with a simple acrylic case, assemble it first:
 | OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS |
 | Size                | 85mm x 55mm                              |
 
-Please visit the [ROCK960 Hardware User Manual](HardwareDocs/HardwareUserManual.md) for more information
+Please visit the [ROCK960 Hardware User Manual](HardwareDocs/HardwareUserManual.md.html) for more information
 
 **IMPORTANT NOTES**
 
@@ -117,7 +117,7 @@ If you are already familiar with the ROCK960 board and would like to change out 
 
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for ROCK960
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your ROCK960 board
-- [Board Recovery](../installation/BoardRecovery.md)
+- [Board Recovery](../installation/BoardRecovery.md.html)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
