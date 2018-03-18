@@ -14,7 +14,7 @@ js-package: products
 
 <div class="row">
 
-{% assign products_array =  site.products | where: 'product','true' %}
+{% assign products_array =  site.products | where: 'product','true' | reverse %}
 {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}
     <div class="col-xs-12 col-sm-4 col-md-3">
@@ -32,12 +32,41 @@ js-package: products
                     </a>
                 </div>
                 <div class="product-short-description">
-                    {{ product.description | slice: 0, 50 }}...
+                    {% if product.permalink == "/products/ultra96/" %}
+                    <p>
+                        Xilinx Zynq UltraScale+ MPSoC ZU3EG A484
+                        Micron 2 GB (512M x32) LPDDR4 Memory
+                        Delkin 16 GB MicroSD card + adapter
+                        Pre-loaded with PetaLinux environment
+                    </p>
+                    {% elsif product.permalink == "/products/rock960/" %}
+                    <p>
+                        Dual Cortex-A72 + quad Cortex-A53 CPU, up to 2.0GHz frequency
+                        Mali T860MP4 GPU, supports OpenGL ES 1.1 /2.0 /3.0 /3.1 /3.2, Vulkan 1.0, Open CL 1.1 1.2, DX11.    
+                    </p>
+                    {% elsif product.permalink == "/products/hikey970/" %}
+                    <p>
+                        Quad Cortex-A73 @2.36GHz plus Quad Cortex-A53 @1.8GHz
+                        Mali G72 MP12 GPU
+                        Neural Processing Unit (NPU): 256MAC/cycle @960MHz   
+                    </p>
+                    {% endif %}
                 </div>
                 <div class="separator clear-left">
                     <a href="{{ product.permalink }}" class="btn btn-primary btn-read-more center-block">View Product</a>
+                    {% if product.available == true %}
+                        <br />
+                        <a href="{{ product.buy-link }}" class="btn btn-primary btn-read-more center-block">Buy Now</a>
+                    {% elsif product.pre-order == true %}
+                    <br />
+                    <a href="{{ product.buy-link }}" class="btn btn-primary btn-read-more center-block">Pre-order</a>
+                    {% else %}
+                        <br />
+                        <div class="coming-soon">    
+                            Coming Soon
+                        </div>
+                    {% endif %}
                 </div>
-
                 <div class="clearfix">
                 </div>
             </div>
