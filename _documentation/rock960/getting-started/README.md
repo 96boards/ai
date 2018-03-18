@@ -117,7 +117,7 @@ If you are already familiar with the ROCK960 board and would like to change out 
 
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for ROCK960
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your ROCK960 board
-- [Board Recovery](../installation/BoardRecovery.md.html)
+- [Board Recovery](../installation/board-recovery.md.html)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
