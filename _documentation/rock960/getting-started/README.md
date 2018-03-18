@@ -10,7 +10,7 @@ Learn about your ROCK960 board as well as how to prepare and set up for basic us
 ## Setup - What you will need
 
 **Need**
-- [ROCK960](https://www.96boards.org/product/rock960/) standard package
+- [ROCK960](/products/rock960/) standard package
    - ROCK960 boards and other accessories
 - [Power adapter](PowerAdapter.md.html)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter, included in the standard package
