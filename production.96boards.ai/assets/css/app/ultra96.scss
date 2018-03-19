@@ -1,0 +1,118 @@
+#ultra96-intro-content {
+    color: white; 
+}
+
+#ultra96-intro-content p {
+    color: white;
+}
+#ultra-heading {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+img.img-responsive.ultra96-image {
+    height: auto;
+    margin: auto auto;
+    width: 30vw;
+    margin-bottom: 40px;
+}
+
+div#ultra96-intro-content {
+    background-color: white;
+    color: #000;
+}
+
+div#ultra96-intro-content p {
+    background-color: white;
+    color: #000;
+}
+
+#image-row {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #2989d8 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #1e5799 0%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+div#ultra96-platforms {
+    background-color: #2987d5;
+}
+
+h1#platforms-title span {
+    color: whte;
+}
+
+div#ultra96-members {
+    background-color: white;
+}
+
+div#ultra96-platforms-to-build {
+    background-color: white;
+}
+
+img.img-responsive.ultra96-member-image.lazyloaded {
+    height: 140px;
+    width: auto;
+    padding:40px;
+}
+#plaforms-title span {
+    color: white;
+}
+
+h1#plaforms-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+#ultra96-platforms-to-build ul {
+    list-style: none;
+    padding-left: 0px;
+}
+#ultra96-platforms-to-build {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div#buy-block {
+    background-color: #2987d5;
+    color: white;
+}
+
+#buy-board-text ul {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 25px;
+}
+
+#buy-board-image > img{
+    height:auto;
+    width: 80%;
+}
+
+a.btn.buy-board-btn {
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    margin-top:10px;
+    
+    transition: all 500ms ease;
+}
+a.btn.buy-board-btn:hover {
+    background-color: #24283e;
+    color: white;
+    margin-bottom: 20px;
+}
+
+a.btn.buy-board-btn.center {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#buy-board-text a {
+    color:#24283e;
+}

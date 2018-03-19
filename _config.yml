@@ -1,7 +1,7 @@
-title: 96boards.ai
+title: 96Boards.ai
 description: Providing Developer Platforms for AI Solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://96boards.ai" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://96Boards.ai" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -16,7 +16,7 @@ exclude:
     - _site
     
 # Jekyll Collections configuration - Projects, Products and Documentation.
-# These are the 96boards.ai collections
+# These are the 96Boards.ai collections
 collections:
     products:
         output: true

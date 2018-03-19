@@ -32,13 +32,13 @@ There are three commonly used DC plug/jack in most consumer products.
 Outer diameter 5.5mm and a 2.1mm center barrel (5.5/2.1)
 Outer diameter 5.5mm and a 2.5mm center barrel (5.5/2.5)
 Outer diameter 4.75mm and a 1.7mm center barrel (4.75/1.7 EIAJ-3 compliant)
-And also there are two type of each, (a) center pin positive and (b) center pin negative. The center negative is commonly considered not a good practice but some products uses outer shield for 5V or 12V and the center pin for ground, while most of the AC adapters are opposite, the outer shield is ground and the center pin is 5V or 12V. If you plug the AC adapter with center negative which has outer positive to the 96boards, it will burn out the 96boards products.
+And also there are two type of each, (a) center pin positive and (b) center pin negative. The center negative is commonly considered not a good practice but some products uses outer shield for 5V or 12V and the center pin for ground, while most of the AC adapters are opposite, the outer shield is ground and the center pin is 5V or 12V. If you plug the AC adapter with center negative which has outer positive to the 96Boards, it will burn out the 96Boards products.
 
 There is an EIAJ-2 plug that has an outer diameter of 4.75mm and a 1.7mm center barrel (4.0/1.7). The 4.0/1.7 EIAJ-2 plug is able to insert into 4.75/1.7 EIAJ-3, but it will cause the outer shield to have weak connection and make the board unstable.
 
 Also, the 5.5/2.5 DC plug is able to insert to 5.5/2.1 jack on 5.5/2.1 to 4.75/1.7 converters but it will have weak center pin connection and make the 96Boards unstable.
 
-In the 96boards specification, it uses 4.75/1.7 EIAJ-3 and center pin positive.
+In the 96Boards specification, it uses 4.75/1.7 EIAJ-3 and center pin positive.
 
 We strongly advise to check your plug is correct as follows:
 

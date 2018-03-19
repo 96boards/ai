@@ -11,8 +11,8 @@ slogan: Develop &amp; Prototype on the Latest Arm Technology
 # Used for the edit on github include
 edit-on-github:
     enabled: false
-    repo: https://github.com/96boards/website
-    docs: https://github.com/96boards/documentation
+    repo: https://github.com/96Boards/website
+    docs: https://github.com/96Boards/documentation
 
 # Mailchimp settings
 mailchimp:
@@ -28,7 +28,7 @@ tags_enabled: true
 
 # Members
 members:
-    key: 96boards_members
+    key: 96Boards_members
     excludes: [/contact/]
     
 # Footer Image default is linaro sprinkle
@@ -54,13 +54,13 @@ home:
             # This is the name of the background-image located in /assets/images/
 
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
-github_username: 96boards
-linkedin_username: 96boards
+github_username: 96Boards
+linkedin_username: 96Boards
 google_plus_username: 106009833460292139774
 facebook_username: 96Boards
 youtube_username: channel/UCjawhk_W1QnJs3pKIsKLJNg/
 twitter_username: 96Boards
-slideshare_username: 96boards
+slideshare_username: 96Boards
 
 # Blog setup
 blog:
@@ -83,7 +83,7 @@ blog:
         most-recent-posts:
             display: true
             count: 5
-        # # Display custom collection e.g projects on 96boards
+        # # Display custom collection e.g projects on 96Boards
         # collection:
         #     - name: projects
         #       count: 5
@@ -100,8 +100,8 @@ google:
 schema:
     enabled: true
     organisation:
-        name: 96boards.ai
-        url: https://www.96boards.ai
+        name: 96Boards.ai
+        url: https://www.96Boards.ai
         address:
             street: Harston Mill, Royston Rd 
             town: Harston 
@@ -113,7 +113,7 @@ schema:
 
 disqus:
     enabled: true
-    shortname: 96boards
+    shortname: 96Boards
 
 # Placeholder for Missing Images
 placeholder: placeholder.png

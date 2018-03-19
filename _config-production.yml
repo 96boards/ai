@@ -3,8 +3,8 @@
 #
 #
 # URL of static site
-url: "https://www.96boards.ai"
+url: "https://www.96Boards.ai"
 # Destination folder
-destination: production.96boards.ai
+destination: production.96Boards.ai
 # Production boolean used in layouts / includes
 production: true
