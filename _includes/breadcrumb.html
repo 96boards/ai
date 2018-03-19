@@ -79,12 +79,13 @@
                                   </li>
                           {% else %}
                           {% capture breadcrumb-path %}{{breadcrumb-path}}{{section}}/{% endcapture%}
-                              <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                  <a itemprop="item" href="{{breadcrumb-path}}">
-                                      <span itemprop="name">{{section | truncate: 20 | capitalize }}</span>
-                                  </a>
-                                  <meta itemprop="position" content="{{iterator}}" />
-                              </li>
+                          
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                                <a itemprop="item" href="{{breadcrumb-path}}">
+                                    <span itemprop="name">{{section | truncate: 20 | capitalize }}</span>
+                                </a>
+                                <meta itemprop="position" content="{{iterator}}" />
+                            </li>
                           {% endif %}
                     {% else %}
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">

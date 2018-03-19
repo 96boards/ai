@@ -1,15 +1,11 @@
 title: 96boards.ai
-description: 
+description: Providing Developer Platforms for AI Solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://96boards.ai" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 theme: jumbo-jekyll-theme
-
-destination: staging.96boards.ai
-
-destination: production.96boards.ai
 
 plugins:
   - jekyll-data
