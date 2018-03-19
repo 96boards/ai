@@ -18,7 +18,7 @@ css-pack: contact
       <div class="col-md-4">
           <h1>Contact Info</h1>
           <address>
-            96boards.ai c/o Linaro<br />
+            96Boards.ai c/o Linaro<br />
             Harston Mill<br />  
             Royston Rd<br />
             Harston<br />
