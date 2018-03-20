@@ -22,7 +22,8 @@ div#tabbed_nav_content {
     position: absolute;
     color: white;
     width: 600px;
-    font-size: 24px;
+    font-size: 20px;
+    top: 0px;
     font-weight: normal;
 }
 
@@ -76,8 +77,7 @@ a.btn.btn-social-icon i {
 
 @media(max-width: $screen-sm-min) {
     #title-text h1.text-center {
-        font-size: 17px;
-        letter-spacing: -1px;
+        display: none;
     }
     .about-image {
         position: relative;
