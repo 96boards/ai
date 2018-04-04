@@ -1,0 +1,24 @@
+# Navigation Configuration
+# - Add your navigation structure to this File
+# - Toggle brand image output
+# - Toggle Search Bar.
+# Search Config
+search:
+    enabled: false
+    label: 96BoardsAI
+
+brand:
+    text: 96Boards.ai
+    image: 
+        enabled: true
+        name: 96Boards-ai-logo-revised.png
+    url: /
+pages:
+    - title: About
+      url: /about/
+    - title: Products
+      url: /products/
+    - title: Documentation
+      url: /documentation/
+    - title: Contact
+      url: /contact/

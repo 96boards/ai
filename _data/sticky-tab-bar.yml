@@ -1,0 +1,12 @@
+pages:
+   - list:
+       - title: All Docs
+         url: /documentation/
+       - title: Rock960
+         url: /documentation/rock960/
+         sub-pages: true
+       - title: Ultra96
+         url: /documentation/ultra96/
+         sub-pages: true
+     sub-pages-enabled: true
+     urls: [/documentation/,/documentation/rock960/,/documentation/ultra96/]

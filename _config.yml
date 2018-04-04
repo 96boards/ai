@@ -1,0 +1,36 @@
+title: 96Boards.ai
+description: Providing Developer Platforms for AI Solutions.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://96Boards.ai" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+theme: jumbo-jekyll-theme
+
+plugins:
+  - jekyll-data
+  
+exclude:
+    - .asset-cache
+    - .sass-cache
+    - _site
+    
+# Jekyll Collections configuration - Projects, Products and Documentation.
+# These are the 96Boards.ai collections
+collections:
+    products:
+        output: true
+        permalink: /:collection/:path/
+    documentation:
+        output: true
+
+defaults:
+  - scope:
+        type: "documentation"
+    values:
+        layout: "container-breadcrumb-tabs"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-media-image.png
+

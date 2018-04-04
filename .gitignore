@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.asset-cache
+.jekyll-metadata
+staging.96boards.ai
+production.96boards.ai

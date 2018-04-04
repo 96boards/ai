@@ -1,0 +1,252 @@
+body {
+	margin: 0;
+	font-family: 'Arial';
+	font-size: 16px;
+	display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+// Home Page 96Boards.ai Logo
+img#ai-logo {
+    position: absolute;
+    top: -2px;
+}
+div#board-slider {
+    background: #000;
+}
+
+div#board-text {
+    height: 66px;
+    line-height: 66px;
+    margin-top: 70px;
+}
+
+div#board-text > h1{
+	font-size: 40px;
+}
+// Home Page Carousel 
+// div#ai-board-carousel {top: 100px;}
+
+// Home Page Carousel Nav
+nav#ai-board-carousel-nav {
+    top: 50px;
+    position: relative;
+}
+
+
+//Remove the blue outline from the buttons
+#ai-board-carousel button.nav:focus {outline:0;}
+
+//View More Info
+a#view-more-info {
+    display: block;
+    color: white;
+    border: 1px solid #fff;
+    width: 122px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a#view-more-info:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+div#board-text {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	z-index: 99999;
+	display: inline-block;
+}
+
+#board-text > h1 {
+    font-size: 25px;
+    color: white;
+	margin-bottom: 0;
+	height: 66px;
+	margin-top:0;
+	line-height: 66px;
+}
+
+// Board Carousel Button
+#ai-board-carousel button.nav {
+    color: white;
+}
+
+#ai-board-carousel button.nav:hover {
+    background-color: white;
+    color: #000;
+}
+
+.row.content {
+    position: relative;
+}
+
+
+
+
+// View 96Boards button.
+a#view-boards {
+    color: white;
+    border: 1px solid #fff;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    line-height: 12px;
+}
+
+
+//Home Page Fluid Container
+.home-page-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100vh;
+    width: 100vw;
+	overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+div#wrapper.main {
+    position: relative;
+}
+
+@media(max-width: $screen-sm-min) {
+	#ai-board-carousel figure{
+		width: 100vw;
+	}
+	#ai-board-carousel figure img{
+		padding: 0 10px;
+	}
+}
+html, body { 
+    overflow-x: hidden; 
+    background: #000; 
+    padding: 0px; margin: 0px; 
+    width: 100%; height: 100%; 
+}
+
+div#board-text {
+    height: 66px;
+    line-height: 66px;
+}
+
+h1.text-center {
+    line-height: 66px;
+}
+
+
+.fullScreen { 
+    height: 100%;
+	width: 100%;
+	position: relative;
+}
+canvas#canvas2d {
+    height: 100vh;
+    width: 100vw;
+}
+// Carousel configuration parameters
+$n: 3;
+$item-width: 50vw;
+$item-separation: 150px;
+$viewer-distance: 500px;
+
+// Derived variables
+$theta: 2 * 3.141592653589793 / $n; 
+$apothem: 482.842712474619px;
+
+
+.carousel {
+	padding: 20px;
+	perspective: $viewer-distance;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	> * {
+		flex: 0 0 auto;
+	}
+	
+	figure {
+		margin: 0;
+		
+		width: $item-width;
+		transform-style: preserve-3d;
+		transition: transform 0.5s;
+		transform-origin: 50% 50% (-$apothem);
+		
+		img {
+			// Disable selection on the image
+			-khtml-user-select: none;
+			-o-user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			user-select: none;
+  
+			width: 100%;
+			box-sizing: border-box;
+			padding: 0 $item-separation / 2;
+						
+			&:not(:first-of-type) {
+				position: absolute;
+				left: 0;
+				top: 0;
+				transform-origin: 50% 50% (-$apothem);
+			}
+				
+			@for $i from 2 through $n {
+				&:nth-child(#{$i}) {
+					transform: rotateY(#{($i - 1) * $theta}rad);
+				}
+			}
+		}
+		
+	}
+	
+	nav {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0 0;
+		
+		button {
+			flex: 0 0 auto;
+			margin: 0 5px;
+			
+			cursor: pointer;
+			
+			color: #333;
+			background: none;
+			border: 1px solid;
+			letter-spacing: 1px;
+			padding: 5px 10px;
+		}
+	}
+	
+}
+
+nav#ai-board-carousel-nav {
+    height: auto;
+}
+
+div#ai-board-carousel {
+    height: auto;
+    margin-bottom: 100px;
+}
+
+div#particles-js {
+    position: absolute;
+}
+
+h1.mobile-title {
+	color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    line-height: 30px;
+}

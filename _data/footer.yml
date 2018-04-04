@@ -1,0 +1,43 @@
+# Footer Configuration
+# - Add your footer structure to the columns key
+# - Add company links to be displayed in the footer.
+
+# Image to be used in the footer. 
+# Default is the Linaro Sprinkle
+image: white-96boards-ai-logo.png
+
+# # Footer Include
+# include: devicetree-members.html
+
+# Columns to be added to the fospec-button center-block fade-in-twooter
+columns:
+    - title: AI Powered 96Boards
+      url: /products/
+      items:
+        - text: Rock960
+          url : /products/rock960/
+        - text: HiKey970
+          url : /products/hikey970/
+        - text: Ultra96
+          url : /products/ultra96/
+    - title: Documentation
+      url: /documentation/
+      items:
+        - text: Rock960
+          url : /documentation/rock960/
+        - text: HiKey970
+          url : /documentation/hikey970/
+        - text: Ultra96
+          url : /documentation/ultra96/
+    - title:
+      url:
+    - title:
+      url:
+# Company Related Links to be displayed in the footer.
+companylinks:
+    - name: Legal
+      url: /legal/
+    - name: Contact
+      url: /contact/
+    - name: Press
+      url: /press/
