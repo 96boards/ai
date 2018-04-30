@@ -11,9 +11,6 @@ js-package: products
 ---
 
 <div id="grid">
-
-<div class="row">
-
 {% assign products_array =  site.products | where: 'product','true' | reverse %}
 {% for product in products_array %}
     {% assign product-url = product.permalink | split: "/" %}
@@ -53,25 +50,29 @@ js-package: products
                     {% endif %}
                 </div>
                 <div class="separator clear-left">
-                    <a href="{{ product.permalink }}" class="btn btn-primary btn-read-more center-block">View Product</a>
-                    {% if product.available == true %}
-                        <br />
-                        <a href="{{ product.buy-link }}" class="btn btn-primary btn-read-more center-block">Buy Now</a>
-                    {% elsif product.pre-order == true %}
-                    <br />
-                    <a href="{{ product.buy-link }}" class="btn btn-primary btn-read-more center-block">Pre-order</a>
-                    {% else %}
-                        <br />
-                        <div class="coming-soon">    
-                            Coming Soon
-                        </div>
-                    {% endif %}
-                </div>
+                            <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
+                                <a href="{{ product.permalink }}" class="btn btn-primary btn-read-more">View Product</a>
+                                
+                                {% if product.available %}
+                                <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                  </button>
+                                  <ul class="dropdown-menu buy-dropup-menu">
+                                      
+                                      {% for buy_link in product.buy-links %}
+                                      <li><a href="{{ buy_link.url }}">{{ buy_link.title }}</a></li>
+                                      {% endfor %}
+                                  </ul>
+                              {% else %}
+                                    <a href="#" class="btn btn-primary btn-default disabled">Coming Soon</a>
+                              {% endif  %}
+                            </div>
+                    </div>
                 <div class="clearfix">
                 </div>
             </div>
         </div>
     </div>
 {% endfor %}
-</div>
 </div>
