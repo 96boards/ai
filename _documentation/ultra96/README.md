@@ -1,6 +1,5 @@
 ---
 title: Ultra96 Documentation
-layout: container-breadcrumb-tabs
 permalink: /documentation/ultra96/
 ---
 # Using the Ultra96

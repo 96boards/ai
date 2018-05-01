@@ -9,6 +9,7 @@ theme: jumbo-jekyll-theme
 
 plugins:
   - jekyll-data
+  - jekyll-readme-index
   
 exclude:
     - .asset-cache
@@ -23,6 +24,7 @@ collections:
         permalink: /:collection/:path/
     documentation:
         output: true
+        permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -34,3 +36,6 @@ defaults:
     values:
       image: /assets/images/social-media-image.png
 
+readme_index:
+  enabled:          true
+  remove_originals: true
