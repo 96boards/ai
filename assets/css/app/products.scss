@@ -1,7 +1,6 @@
 .col-item
 {
     background: transparent;
-    margin: 20px;
 }
 .specification_block{
     height: 200px;
@@ -68,13 +67,17 @@
 .dropdown-container.btn-group button.btn-buy {
     width: 40%;
     height: 42px;
-    border-radius: 0 20px 20px 0;
     transition:  all .5s ease;
 }
 .dropdown-container.btn-group button.btn-buy:hover {
     background-color:$brand-primary;
     color: white;
     transition: all .5s ease;
+}
+
+a.btn.btn-primary.btn-default.disabled {
+    width: 38%;
+    height: 42px;
 }
 
 .dropdown-container {
@@ -88,7 +91,7 @@
 }
 
 .product-short-description {
-    min-height: 120px;
+    min-height: 150px;
     height: auto;
     font-size: 12px;
     text-align: center;
