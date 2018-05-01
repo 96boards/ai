@@ -4,18 +4,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://96Boards.ai" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
 theme: jumbo-jekyll-theme
-
 plugins:
   - jekyll-data
   - jekyll-readme-index
-  
 exclude:
     - .asset-cache
     - .sass-cache
     - _site
-    
 # Jekyll Collections configuration - Projects, Products and Documentation.
 # These are the 96Boards.ai collections
 collections:
