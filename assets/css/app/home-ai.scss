@@ -9,7 +9,7 @@ body {
 }
 
 
-// Home Page 96boards.ai Logo
+// Home Page 96Boards.ai Logo
 img#ai-logo {
     position: absolute;
     top: -2px;
@@ -89,7 +89,7 @@ div#board-text {
 
 
 
-// View 96boards button.
+// View 96Boards button.
 a#view-boards {
     color: white;
     border: 1px solid #fff;
@@ -242,4 +242,11 @@ div#ai-board-carousel {
 
 div#particles-js {
     position: absolute;
+}
+
+h1.mobile-title {
+	color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    line-height: 30px;
 }

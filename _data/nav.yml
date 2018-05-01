@@ -8,7 +8,7 @@ search:
     label: 96BoardsAI
 
 brand:
-    text: 96boards.ai
+    text: 96Boards.ai
     image: 
         enabled: true
         name: 96Boards-ai-logo-revised.png

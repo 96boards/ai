@@ -16,7 +16,7 @@ columns:
       items:
         - text: Rock960
           url : /products/rock960/
-        - text: Hikey970
+        - text: HiKey970
           url : /products/hikey970/
         - text: Ultra96
           url : /products/ultra96/
@@ -25,7 +25,7 @@ columns:
       items:
         - text: Rock960
           url : /documentation/rock960/
-        - text: Hikey970
+        - text: HiKey970
           url : /documentation/hikey970/
         - text: Ultra96
           url : /documentation/ultra96/

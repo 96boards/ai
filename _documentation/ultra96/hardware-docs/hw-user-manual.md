@@ -432,7 +432,7 @@ The four user LEDs are surface mount Green in 0603 size located next to the micr
 
 ### Additional Functionality
 
-< Use this section to describe any additional functionality you’ve added to the board besides what is mandated in the 96boards spec, each in their own sub-section e.g. JTAG, GPS, Mic, SATA, PCIe, additional expansion connectors >
+< Use this section to describe any additional functionality you’ve added to the board besides what is mandated in the 96Boards spec, each in their own sub-section e.g. JTAG, GPS, Mic, SATA, PCIe, additional expansion connectors >
 
 The Helio X20 Development Board also has a additional interface (CON9001)for user debugging. It includes JTAG , UART0 and UART1 interface. The position is reserved, but the component is not mounted in the mass production. The component of CON9001 is AXT640124 produced by Panasonic. This interface should be used with the MTK debug board.
 
@@ -442,7 +442,7 @@ The Helio X20 Development Board also has a additional interface (CON9001)for use
 
 ### Low Speed Expansion Connector
 
-< Add a table that maps the 96boards signals on the low-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics >
+< Add a table that maps the 96Boards signals on the low-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics >
 
 |  Helio X20 Signals  |  96Boards Signals |  PIN  |  PIN  |  96Boards Signals  |  Helio X20 Signals  |
 |:--------------------|:------------------|:------|------:|-------------------:|--------------------:|
@@ -545,7 +545,7 @@ SYS_DCIN  Can serves as the board’s main power source or can receive power fro
 
 ## High Speed Expansion Connector
 
-< Add a table that maps the 96boards signals on the high-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics>
+< Add a table that maps the 96Boards signals on the high-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics>
 
 |  Helio X20 Signals |   96Boards Signals   |  PIN  |  PIN  |  96Boards Signals  |             Helio X20 Signals             |
 |:-------------------|:---------------------|:------|------:|-------------------:|------------------------------------------:|

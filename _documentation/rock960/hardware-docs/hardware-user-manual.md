@@ -308,7 +308,7 @@ The ROCK960 has an additional M.2 connector, which expose the 4 lanes PCIE 2.1 s
 
 ### Low Speed Expansion Connector
 
-< Add a table that maps the 96boards signals on the low-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics >
+< Add a table that maps the 96Boards signals on the low-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics >
 
 The Low Speed Expansion Connector implements as following on ROCK960.
 

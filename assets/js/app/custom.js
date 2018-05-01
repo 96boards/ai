@@ -60,7 +60,7 @@ $(document).ready(function () {
 
         }
         else if (figure.id == 2) {
-            board_text.innerHTML = "<h1 class='text-center'>Hikey970<h1>";
+            board_text.innerHTML = "<h1 class='text-center'>HiKey970<h1>";
             board_more_info.href = "/products/hikey970/";
             $("button.nav.next").css("opacity",".5");
             
