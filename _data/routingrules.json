@@ -1,3 +1,0 @@
-[
-    "^/documentation/consumer(/?|/index.html)$ /documentation/ [R,L,NC]",
-]
