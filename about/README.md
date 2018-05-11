@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div class="col-sm-2">
-    <div class="lazyload about-image" style="background-image:url({% asset_path 'yang-optimized.jpg' %})"></div>
+    <div class="lazyload about-image" style="background-image:url({% asset_path 'yang.jpg' %})"></div>
 </div>
 <div class="col-sm-10" markdown="1">
 
