@@ -12,7 +12,6 @@ exclude:
     - .asset-cache
     - .sass-cache
     - _site
-# Jekyll Collections configuration - Projects, Products and Documentation.
 # These are the 96Boards.ai collections
 collections:
     products:
