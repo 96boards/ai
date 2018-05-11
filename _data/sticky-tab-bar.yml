@@ -1,6 +1,6 @@
 pages:
    - list:
-       - title: All Docs
+       - title: All AI Docs
          url: /documentation/
        - title: Rock960
          url: /documentation/consumer/rock960/
@@ -10,6 +10,10 @@ pages:
          sub-pages: true
        - title: HiKey970
          url: /documentation/consumer/hikey970/
+         sub-pages: true
+       - title: 96Boards.org Docs
+         url: https://www.96boards.org/documentation/
+         right: true
          sub-pages: true
      sub-pages-enabled: true
      urls: [/documentation/,/documentation/consumer/rock960/,/documentation/consumer/ultra96/, /documentation/consumer/hikey970/]
