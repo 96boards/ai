@@ -21,7 +21,6 @@ collections:
     documentation:
         output: true
         permalink: /:collection/:path/
-
 defaults:
   - scope:
         type: "documentation"
@@ -31,7 +30,6 @@ defaults:
       path: ""
     values:
       image: /assets/images/social-media-image.png
-
 readme_index:
   enabled:          true
   remove_originals: true
