@@ -3,10 +3,13 @@ pages:
        - title: All Docs
          url: /documentation/
        - title: Rock960
-         url: /documentation/rock960/
+         url: /documentation/consumer/rock960/
          sub-pages: true
        - title: Ultra96
-         url: /documentation/ultra96/
+         url: /documentation/consumer/ultra96/
+         sub-pages: true
+       - title: HiKey970
+         url: /documentation/consumer/hikey970/
          sub-pages: true
      sub-pages-enabled: true
-     urls: [/documentation/,/documentation/rock960/,/documentation/ultra96/]
+     urls: [/documentation/,/documentation/consumer/rock960/,/documentation/consumer/ultra96/, /documentation/consumer/hikey970/]
