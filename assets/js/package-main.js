@@ -3,7 +3,6 @@
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
-//= require vendor/mc-validate
 //= require app/sticky-tab-bar
 
 //= require app/main
