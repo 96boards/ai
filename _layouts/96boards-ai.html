@@ -13,6 +13,9 @@ css-package: home-ai
         <div id="wrapper" class="{% if layout.home == true and site.data.settings.home.jumbotron.enabled %}home{% else %}main{% endif %}">
             {% include nav.html %}
             {{content}}
+            {% if site.data.settings.newsletter.enabled == true %}
+                {% include newsletter-script.html %}
+            {% endif %}
             {% include footer.html %}
         </div>
         {% include javascript.html %}
