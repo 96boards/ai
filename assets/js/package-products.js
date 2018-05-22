@@ -1,7 +1,6 @@
 //= require vendor/jquery
 //= require vendor/bootstrap
 //= require vendor/cookieconsent
-//= require vendor/mc
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
 //= require vendor/lightbox
