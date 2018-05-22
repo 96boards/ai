@@ -1,4 +1,4 @@
-//= require vendor/jquery
+//= require plugins/jquery1.11.2.min
 //= require vendor/bootstrap
 //= require plugins/scrollreveal.min
 //= require vendor/cookieconsent
