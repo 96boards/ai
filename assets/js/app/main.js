@@ -9,9 +9,35 @@ $(document).mouseup(function(e)
     }
     
 });
-
 $(document).ready(function () {
-    
+    // Sticky Nav for the universal/main navigation bars
+    if($("#universal-nav")){
+        var stickyOffset = $('#main-navigation').offset().top;
+        var universalNav = $('#universal-nav');
+        var wrapper = $('#wrapper');
+
+        $(window).scroll(function(){
+            
+            var sticky = $('#main-navigation'),
+            scroll = $(window).scrollTop();
+
+            if (scroll >= stickyOffset) 
+            {
+              sticky.removeClass('navbar-static');
+              wrapper.css('margin-top', $('#main-navigation').height() + universalNav.height());
+              universalNav.hide();
+              sticky.addClass('navbar-fixed-top');
+            }   
+            else 
+            {
+                sticky.removeClass('navbar-fixed-top');
+                wrapper.css('margin-top', '0px');
+                universalNav.slideDown("fast");
+                sticky.addClass('navbar-static');
+            }
+            
+        });
+    }
     
     $('.dropdown-toggle').dropdown();
 
@@ -37,32 +63,6 @@ $(document).ready(function () {
         search_form.trigger('reset');
         search_bar.css('display','none');
     });
-    
-    // // Youtube Video Thumbnails
-    // 
-    // var youtube = document.querySelectorAll( ".youtube" );
-    // 
-    // for (var i = 0; i < youtube.length; i++) {
-    // 
-    //     var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
-    // 
-    //     var image = new Image();
-    //        image.src = source;
-    //        image.addEventListener( "load", function() {
-    //            youtube[ i ].appendChild( image );
-    //        }(i) );
-    // 
-    //        youtube[i].addEventListener( "click", function() {
-    //            var iframe = document.createElement( "iframe" );
-    //            iframe.setAttribute( "frameborder", "0" );
-    //            iframe.setAttribute( "allowfullscreen", "" );
-    //            iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
-    // 
-    //            this.innerHsTML = "";
-    //            this.appendChild( iframe );
-    //        } );
-    // };
-    // 
 
     //Reset form when bootstrap modal closes.
     $('.modal').on('hidden.bs.modal', function(){
@@ -109,8 +109,6 @@ $(document).ready(function () {
         menu.css({ left:newpos });
     });
     
-    
-    
     // Remove any zoom class added to body 
     $('body').css('zoom', '');
     
@@ -118,8 +116,8 @@ $(document).ready(function () {
     // External Links Opening in new window.
     $('a').each(function() {
        var a = new RegExp('/' + window.location.host + '/');
-       if (!a.test(this.href)) {
-          $(this).attr("target","_blank");
+       if($(this).attr("target") != "_self"){
+           $(this).attr("target","_blank");
        }
     });
     
