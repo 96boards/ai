@@ -1,3 +1,6 @@
+{% if site.data.nav.universal-nav %}
+    {% include universal-nav.html %}
+{% endif %}
 <nav class="
 {% if site.data.settings.home.jumbotron.enabled %}
     {% if layout.nav-light %}
@@ -10,7 +13,7 @@
         {% endif %}
     {% endif %}
 {% endif %}
-navbar-inverse navbar-fixed-top" id="main-navigation">
+navbar-inverse navbar-static-top" id="main-navigation">
         <!-- NAVBAR HEADER-->
          <div class="navbar-header">
              <button for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">

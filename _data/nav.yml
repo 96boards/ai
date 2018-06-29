@@ -6,7 +6,7 @@
 search:
     enabled: false
     label: 96BoardsAI
-
+universal-nav: true
 brand:
     text: 96Boards.ai
     image: 
