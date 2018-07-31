@@ -24,11 +24,11 @@ columns:
       url: /documentation/
       items:
         - text: Rock960
-          url : /documentation/consumer/rock960/
+          url : https://www.96boards.org/documentation/consumer/rock/rock960/
         - text: HiKey970
-          url : /documentation/consumer/hikey970/
+          url : https://www.96boards.org/documentation/consumer/hikey/hikey970/
         - text: Ultra96
-          url : /documentation/consumer/ultra96/
+          url : https://www.96boards.org/documentation/consumer/ultra96/
     - title:
       url:
     - title:
