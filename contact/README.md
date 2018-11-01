@@ -2,8 +2,7 @@
 layout: full-width-breadcrumb
 title: Contact
 permalink: /contact/
-js-vendor: contact
-css-pack: contact
+css-package: contact
 ---
 <div id="contact-thanks">
     <div class="jumbotron">
@@ -27,15 +26,11 @@ css-pack: contact
           </address>
       </div>
       <div class="col-md-8">
-          <div class="cognito">
-              <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
-              <script>
-                  Cognito.load("forms", { id: "11", entry: {
-                    "PageUrl": "{{site.url}}{{page.url}}" ,
-                    "RedirectUrl" : "{{site.url}}/thank-you/?ref={{page.url}}"
-                  }});
-              </script>
-          </div>
+          <div class="col-xs-12 text-center">
+                <a class="btn email" href="mailto:contact@linaro.org?subject=96Boards.ai - {{page.url}}">
+                    Contact Us
+                </a>
+            </div>
       </div>
       </div>
     </div>
