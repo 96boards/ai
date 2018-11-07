@@ -44,7 +44,7 @@ $(document).ready(function () {
         $("button.nav.prev").css("opacity","1");
         $("button.nav.next").css("opacity","1");
       }
-      var current_slide_query_selector = "#" + currImage + 1;
+      var current_slide_query_selector = "#" + (currImage + 1).toString();
       var slide_url = $(current_slide_query_selector).attr("data-url");
       var slide_text = $(current_slide_query_selector).attr("alt");
 
