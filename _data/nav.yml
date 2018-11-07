@@ -7,6 +7,9 @@ search:
     enabled: false
     label: 96BoardsAI
 
+# Universal Nav Bar Toggle
+universal-nav: true 
+
 brand:
     text: 96Boards.ai
     image: 
