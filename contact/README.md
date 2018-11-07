@@ -2,7 +2,6 @@
 layout: full-width-breadcrumb
 title: Contact
 permalink: /contact/
-js-package: contact
 css-package: contact
 ---
 <div id="contact-thanks">
