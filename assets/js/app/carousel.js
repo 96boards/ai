@@ -7,8 +7,7 @@ $(document).ready(function () {
     	nav = carousel.querySelector('nav'),
     	board_text = document.querySelector('#board-text'),
     	board_more_info = document.querySelector('#view-more-info'),
-    	// numImages = figure.childElementCount,
-    	numImages = 4,
+    	numImages = figure.childElementCount,
     	theta =  2 * Math.PI / numImages,
       currImage = 0;
       
@@ -32,31 +31,24 @@ $(document).ready(function () {
               currImage--;
           }
       }
-    	figure.style.transform = `rotateY(${currImage * -theta}rad)`;
-      figure.id = currImage;
+      figure.style.transform = `rotateY(${currImage * -theta}rad)`;
       // Ultra96
-      if(figure.id == 0){
-          board_text.innerHTML = "<h1 class='text-center'>Ultra96<h1>";
-          board_more_info.href = "/products/ultra96/";
+      if(currImage == 0){
           $("button.nav.prev").css("opacity",".5");
           $("button.nav.next").css("opacity","1");
       }
-      else if (figure.id == 1) {
-        board_text.innerHTML = "<h1 class='text-center'>Sophon Edge<h1>";
-        board_more_info.href = "https://www.96boards.org/product/sophon-edge/";
+      else if (currImage == numImages) {
+          $("button.nav.next").css("opacity",".5");   
+      }
+      else{
         $("button.nav.prev").css("opacity","1");
         $("button.nav.next").css("opacity","1");
       }
-      else if (figure.id == 2) {
-          board_text.innerHTML = "<h1 class='text-center'>Rock960<h1>";
-          board_more_info.href = "/products/rock960/";
-          $("button.nav.prev").css("opacity","1");
-          $("button.nav.next").css("opacity","1");
-      }
-      else if (figure.id == 3) {
-          board_text.innerHTML = "<h1 class='text-center'>HiKey970<h1>";
-          board_more_info.href = "/products/hikey970/";
-          $("button.nav.next").css("opacity",".5");   
-      }
+      var current_slide_query_selector = "#" + currImage + 1;
+      var slide_url = $(current_slide_query_selector).attr("data-url");
+      var slide_text = $(current_slide_query_selector).attr("alt");
+
+      board_text.innerHTML = "<h1 class='text-center'>" + slide_text + "<h1>";
+      board_more_info.href = slide_url;
     } 
 });
