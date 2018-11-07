@@ -1,3 +1,4 @@
 [
-    "^/documentation/consumer/rock960/installation(/?|/index.html)$ /documentation/consumer/rock960/installation/ [R,L,NC]"
+    "^/documentation/consumer/rock960/installation(/?|/index.html)$ /documentation/consumer/rock960/installation/ [R,L,NC]",
+    "^/products/sophon-edge(/?|/index.html)$ https://www.96boards.org/product/sophon-edge/ [R,L,NC]"
 ]
