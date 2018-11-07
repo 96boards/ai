@@ -20,6 +20,8 @@ columns:
           url : /products/hikey970/
         - text: Ultra96
           url : /products/ultra96/
+        - text: Sophon Edge
+          url : https://www.96boards.org/product/sophon-edge/
     - title: Documentation
       url: /documentation/
       items:
@@ -29,6 +31,8 @@ columns:
           url : https://www.96boards.org/documentation/consumer/hikey/hikey970/
         - text: Ultra96
           url : https://www.96boards.org/documentation/consumer/ultra96/
+        - text: Sophon Edge
+          url : https://www.96boards.org/documentation/consumer/sophon-edge/
     - title:
       url:
     - title:
