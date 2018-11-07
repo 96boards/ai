@@ -13,5 +13,6 @@ css-package: products
 js-package: products
 available: false
 product: true
+redirect_to: https://www.96boards.org/product/sophon-edge/
 ---
 
