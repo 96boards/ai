@@ -11,5 +11,3 @@
 //= require app/home
 //= require app/carousel
 //= require app/custom
-
-
