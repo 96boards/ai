@@ -6,14 +6,7 @@
 search:
     enabled: false
     label: 96BoardsAI
-<<<<<<< HEAD
-
-# Universal Nav Bar Toggle
-universal-nav: true 
-
-=======
 universal-nav: true
->>>>>>> 56cff59492badb233c5d3d6761306a2b17d9ffb0
 brand:
     text: 96Boards.ai
     image: 
