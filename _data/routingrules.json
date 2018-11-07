@@ -1,0 +1,3 @@
+[
+    "^/documentation/consumer/rock960/installation(/?|/index.html)$ /documentation/consumer/rock960/installation/ [R,L,NC]"
+]

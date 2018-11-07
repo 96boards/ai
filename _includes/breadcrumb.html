@@ -6,7 +6,9 @@
     {% endif %}><!--- Main fluid container start ---->
     
       <div class="row"> <!--- Row Start ---->
+        {% unless page.url == "/contact/" %}
           <div id="particles-js" class="breadcrumb-particles"></div>
+        {% endunless %}
         <div class="container breadcrumb-inner-container"><!--- Container Start ---->
           <h1>
               {% if page.page_title %}

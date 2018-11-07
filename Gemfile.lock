@@ -106,14 +106,22 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
+<<<<<<< HEAD
     rack (1.6.11)
+=======
+    rack (1.6.10)
+>>>>>>> 56cff59492badb233c5d3d6761306a2b17d9ffb0
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
+<<<<<<< HEAD
     sass (3.7.0)
+=======
+    sass (3.6.0)
+>>>>>>> 56cff59492badb233c5d3d6761306a2b17d9ffb0
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
