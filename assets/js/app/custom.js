@@ -43,7 +43,7 @@ $(document).ready(function () {
       }
       else if (figure.id == 1) {
         board_text.innerHTML = "<h1 class='text-center'>Sophon Edge<h1>";
-        board_more_info.href = "/products/sophon-edge/";
+        board_more_info.href = "https://www.96boards.org/product/sophon-edge/";
         $("button.nav.prev").css("opacity","1");
         $("button.nav.next").css("opacity","1");
       }
