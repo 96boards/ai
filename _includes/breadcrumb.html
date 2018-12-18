@@ -1,11 +1,4 @@
-<div class="container-fluid breadcrumb-container"
-    
-    {% if site.data.settings.breadcrumb.image %}
-    style="background-image: url('{% asset_path '{{site.data.settings.breadcrumb.image}}' %}');
-    "
-    {% endif %}><!--- Main fluid container start ---->
-    
-      <div class="row"> <!--- Row Start ---->
+<div class="row">
         {% unless page.url == "/contact/" %}
           <div id="particles-js" class="breadcrumb-particles"></div>
         {% endunless %}
@@ -99,6 +92,4 @@
               {% endfor %}
           </ol>
       </div>
-      </div>
-
 </div>
