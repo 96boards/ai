@@ -1,24 +1,18 @@
 // Theses are the Overrides of Bootstrap Sass Variables locatted in boostrap/_variables
-
 $brand-primary: #999;
-
 //Home 
 $home-page-title-text: #fff;
 $home-page-main-title-color: #fff;
-
 // Footer
 $footer-bg-color: #0c0c0c;;
 $footer-text-color: #fff;
-
 // Sub footer
 $sub-footer-bg-color: #fbfbfb;
-
 // Navbar
 $navbar-text-color: #fff;
 $navbar-height: 66px;
 $navbar-inverse-bg: #000;;
 $navbar-inverse-color: #fff;
-
 @font-face {
   font-family: 'Lato';
   src: url('/assets/fonts/lato-regular/Lato-regular.eot'); /* IE9 Compat Modes */
@@ -30,6 +24,14 @@ $navbar-inverse-color: #fff;
 }
 // Fonts 
 $font-family-sans-serif:  'Lato', Arial, sans-serif !default;
-
 // Breadcrumb Default background colour.
 $breadcrumb-background-color: $navbar-inverse-bg !default;
+// Jumbotron Settings
+$jumbotron-height: 400px;
+$overlay: 0.5;
+$jumbotron-font-size-xs: 26px;
+$jumbotron-font-size: 32px;
+$jumbotron-heading-color: #fff !default;
+$jumbotron-sub-title-font-size-xs: 16px;
+$jumbotron-sub-title-font-size: 18px;
+$jumbotron-sub-title-color: #fff !default;
