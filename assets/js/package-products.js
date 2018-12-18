@@ -3,9 +3,8 @@
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
-//= require vendor/lightbox
+//= require vendor/featherlight
 
 //= require app/main
 //= require app/particles
 //= require app/custom
-

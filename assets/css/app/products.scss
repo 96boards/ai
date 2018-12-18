@@ -25,6 +25,9 @@
 #main-container .col-item > div.col-md-12.text-center{
     min-height: 53px;
 }
+ul.dropdown-menu.buy-dropup-menu li:last-child a {
+    border-bottom: 0px;
+}
 .round-tag{
     width: 60px;
     height: 60px;

@@ -8,4 +8,3 @@
 //= require app/hikey970
 //= require app/particles
 //= require app/custom
-
