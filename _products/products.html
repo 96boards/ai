@@ -36,23 +36,8 @@ js-package: products
                 </div>
                 {% endif %}
                 <div class="separator clear-left">
-                            <div class="dropdown dropdown-container btn-group dropup btn-block" class="product-buy-dropdown">
-                                <a href="{{ product.permalink }}" class="btn btn-primary btn-read-more">View Product</a>
-                                
-                                {% if product.available %}
-                                <button type="button" class="btn btn-primary dropdown-toggle btn-buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Buy <i class="button-icon glyphicon glyphicon-shopping-cart"></i>
-                                    <span class="sr-only">Toggle Dropdown</span>
-                                  </button>
-                                  <ul class="dropdown-menu buy-dropup-menu">
-                                      
-                                      {% for buy_link in product.buy-links %}
-                                      <li><a href="{{ buy_link.url }}">{{ buy_link.title }}</a></li>
-                                      {% endfor %}
-                                  </ul>
-                              {% else %}
-                                    <a href="#" class="btn btn-primary btn-default disabled">Coming Soon</a>
-                              {% endif  %}
+                            <div class="dropdown dropdown-container btn-group dropup btn-block text-center" class="product-buy-dropdown">
+                                <a href="{{ product.permalink }}" class="btn btn-primary center-block">View</a>
                             </div>
                     </div>
                 <div class="clearfix">
