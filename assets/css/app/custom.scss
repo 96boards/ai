@@ -111,3 +111,9 @@ a.btn.btn-social-icon i {
 .navbar-header {
 	z-index: 9999;
 }
+
+@media(min-width: $screen-lg){
+    div#wrapper {
+        margin-top: -77px;
+    }
+}
