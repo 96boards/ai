@@ -10,9 +10,8 @@ slogan: Develop &amp; Prototype on the Latest Arm Technology
 #Content Repo for static site.
 # Used for the edit on github include
 edit-on-github:
-    enabled: false
-    repo: https://github.com/96Boards/website
-    docs: https://github.com/96Boards/documentation
+    enabled: true
+    repo: https://github.com/96Boards/ai
 
 # Mailchimp settings
 mailchimp:
