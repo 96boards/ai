@@ -23,7 +23,10 @@ div#board-text {
     line-height: 66px;
     margin-top: 70px;
 }
-
+div#wrapper {
+    height: 100vh;
+    overflow: visible;
+}
 div#board-text > h1{
 	font-size: 40px;
 }
@@ -114,11 +117,6 @@ a#view-boards {
     position: absolute;
     z-index: 2;
 }
-
-div#wrapper.main {
-    position: initial;
-}
-
 @media(max-width: $screen-sm-min) {
 	#ai-board-carousel figure{
 		width: 100%;
@@ -172,13 +170,19 @@ h1.mobile-title {
     margin-top: 30px;
     line-height: 30px;
 }
-@media(min-width: $screen-lg){
-    div#wrapper {
-        margin-top: -77px;
-    }
+// @media(min-width: $screen-lg){
+//     div#wrapper {
+//         margin-top: -77px;
+//     }
+// }
+// @media(min-width: $screen-md) and (max-width: $screen-lg-min - 1){
+//     div#wrapper {
+//         margin-top: -26px;
+//     }
+// }
+div#wrapper {
+    margin-top: 0px;
 }
-@media(min-width: $screen-md) and (max-width: $screen-lg-min - 1){
-    div#wrapper {
-        margin-top: -26px;
-    }
+body{
+    overflow-y: scroll !important;
 }
