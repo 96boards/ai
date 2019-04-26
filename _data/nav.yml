@@ -11,7 +11,7 @@ brand:
     text: 96Boards.ai
     image: 
         enabled: true
-        name: 96Boards-ai-logo-revised.png
+        path: /assets/images/96Boards-ai-logo-dark.png
     url: /
 pages:
     - title: About
@@ -40,5 +40,7 @@ pages:
           url: https://www.96boards.org/documentation/consumer/rock/rock960/
         - text: Sophon Edge
           url: https://www.96boards.org/documentation/consumer/sophon-edge/
+    - title: News
+      url: /news/
     - title: Contact
       url: /contact/
