@@ -2,7 +2,6 @@ favicon: favicon.png
 search-label: 96Boards.ai
 name: 96Boards.ai
 slogan: Develop &amp; Prototype on the Latest Arm Technology
-
 # Breadcrumb Settings
 # breadcrumb:
 #     image: banner.jpg
@@ -12,15 +11,13 @@ slogan: Develop &amp; Prototype on the Latest Arm Technology
 edit-on-github:
     enabled: true
     repo: https://github.com/96Boards/ai
-
 # Mailchimp settings
 mailchimp:
     enabled: true
     id: fdc7b4b109
-    
 # Footer Newsletter toggle.
 newsletter:
-    enabled: true
+    enabled: false
     url: https://linaro.us3.list-manage.com/subscribe?u=14baaae786342d0d405ee59c2&id=fdc7b4b109
 
 
@@ -57,7 +54,6 @@ home:
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: 96Boards
 linkedin_username: 96Boards
-google_plus_username: 106009833460292139774
 facebook_username: 96Boards
 youtube_username: channel/UCjawhk_W1QnJs3pKIsKLJNg/
 twitter_username: 96Boards
