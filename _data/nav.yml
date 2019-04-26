@@ -28,18 +28,23 @@ pages:
           url: /products/rock960/
         - text: Sophon Edge
           url: https://www.96boards.org/product/sophon-edge/
+          external: true
     - title: Documentation
       options:
         - text: All Documentation
           url: /documentation/
         - text: Hikey970
           url: https://www.96boards.org/documentation/consumer/hikey/hikey970/
+          external: true
         - text: Ultra96
           url: https://www.96boards.org/documentation/consumer/ultra96/
+          external: true
         - text: Rock960
           url: https://www.96boards.org/documentation/consumer/rock/rock960/
+          external: true
         - text: Sophon Edge
           url: https://www.96boards.org/documentation/consumer/sophon-edge/
+          external: true
     - title: News
       url: /news/
     - title: Contact
