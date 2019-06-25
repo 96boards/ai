@@ -1,95 +1,65 @@
 ---
-layout: 96boards-ai
-css-package: home-ai
-js-package: home-ai
+layout: jumbotron
+js-package: home
+title: 96Boards.Ai - AI powered Arm-based development boards.
+description: >
+    96Boards.ai provides access to the latest Arm-based AI accelerated hardware & software for Android and Linux.
+jumbotron:
+    slider:
+        slides:
+            - title: Access the latest Arm-based AI accelerated hardware & software for Android and Linux.
+              title-class: big-title
+              slide-style: "background-position-y: bottom;"
+              darken: true
+              image: /assets/images/ai-bg.png
+            - title: Horizon Robotics joins Linaro 96Boards Steering Committee
+              description: Linaro announces that Horizon Robotics, leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member.
+              darken: true
+              slide-style: "background-position-y: bottom;"
+              image: assets/images/machine-learning-bg.jpg
+              buttons:
+                - title: Learn more
+                  url: https://www.linaro.org/news/horizon-robotics-joins-linaro-96boards-steering-committee/
+edit-on-github: true
 ---
-<div class="container-fluid" id="board-slider">
-    <!-- particles.js container -->
-    <div id="particles-js"></div>
-    <div class="row">
-        <div class="container">
-            <h1 class="text-center mobile-title visible-xs">Developer Platforms for AI Solutions</h1>
-            <div class="carousel" id="ai-board-carousel">
-                <figure>
-                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                     data-src="/assets/images/ultra-96-front-hd.png" id="1" data-url="/products/ultra96/" alt="Ultra96">
-                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                     data-src="/assets/images/sophon-edge-tpu-board.png" id="2" data-url="https://www.96boards.org/product/sophon-edge/" alt="Sophon Edge">
-                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                     data-src="/assets/images/rock960_front-resized.png" id="3" data-url="/products/rock960/" alt="Rock960">
-                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                     data-src="/assets/images/hikey970-resized.png" id="4" data-url="/products/hikey970/" alt="HiKey970">
-                </figure>
-                <nav id="ai-board-carousel-nav">
-                    <button class="nav prev">Prev</button>
-                    <a class="btn view-more-info" id="view-more-info" href="/products/ultra96/">
-                        More info
-                    </a>
-                    <button class="nav next">Next</button>
-                </nav>
-                <div id="board-text">
-                    <h1 class="text-center">Ultra96</h1>
-                </div>
-            </div>
-        <div id="safari-carousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#safari-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#safari-carousel" data-slide-to="1"></li>
-                <li data-target="#safari-carousel" data-slide-to="2"></li>
-                <li data-target="#safari-carousel" data-slide-to="3"></li>
-            </ol>
-            
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="/assets/images/ultra-96-front-hd.png" id="1" data-url="/products/ultra96/" alt="Ultra96">
-                    <div class="carousel-caption">
-                        Ultra96
-                        <a class="btn view-more-info" href="/products/ultra96/">More Info</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="/assets/images/sophon-edge-tpu-board.png" id="2" data-url="https://www.96boards.org/product/sophon-edge/" alt="Sophon Edge">
-                    <div class="carousel-caption">
-                        Sophon Edge
-                        <a class="btn view-more-info" href="https://www.96boards.org/product/sophon-edge/">More Info</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="/assets/images/rock960_front-resized.png" id="3" data-url="/products/rock960/" alt="Rock960">
-                    <div class="carousel-caption">
-                        Rock960
-                        <a class="btn view-more-info" href="/products/rock960/">More Info</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="/assets/images/hikey970-optimized.png" id="4" data-url="/products/hikey970/" alt="HiKey970">
-                    <div class="carousel-caption">
-                        HiKey970
-                        <a class="btn view-more-info" href="/products/hikey970/">More Info</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Controls -->
-            <a class="left carousel-control" href="#safari-carousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#safari-carousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            </div>
+<div class="row content-row p-t-40 p-b-40">
+        <div class="col-sm-3 text-center p-t-20 p-b-20">
+            <img class="img-responsive lazyload ai-homepage-image center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="/assets/images/hikey970-resized.png" alt="Hikey970 image"/>
+            <h4>Hikey970</h4>
+            <p>
+                HiKey970 is one of the world‘s first edge AI developing platform with a dedicated Neural-network Processing Unit (NPU).
+            </p>
+            <a class="btn btn-primary" href="/products/hikey970/">Learn More</a>
         </div>
-
-    </div>
+        <div class="col-sm-3 text-center p-t-20 p-b-20">
+            <img class="img-responsive lazyload ai-homepage-image center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="/assets/images/rock960_front-resized.png" alt="Rock960 image"/>
+            <h4>Rock960</h4>
+            <p>
+                The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-A53 CPU, with up to 2.0GHz frequency.
+            </p>
+            <a class="btn btn-primary" href="/products/hikey970/">Learn More</a>
+        </div>
+        <div class="col-sm-3 text-center p-t-20 p-b-20">
+            <img class="img-responsive lazyload ai-homepage-image center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="/assets/images/ultra-96-front-hd-resized.png" alt="Ultra96 image"/>
+            <h4>Ultra96</h4>
+            <p>
+                Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer
+                Edition (CE) specification.
+            </p>
+            <a class="btn btn-primary" href="/products/hikey970/">Learn More</a>
+        </div>
+        <div class="col-sm-3 text-center p-t-20 p-b-20">
+            <img class="img-responsive lazyload ai-homepage-image center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="/assets/images/sophon-edge-tpu-board.png" alt="Sophon Edge image"/>
+            <h4>Sophon Edge</h4>
+            <p>
+                Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of application through
+                its quick prototype development.
+            </p>
+            <a class="btn btn-primary" href="/products/hikey970/">Learn More</a>
+        </div>
 </div>
-
-
-
+{% include members.html %}

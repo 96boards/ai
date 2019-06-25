@@ -1,10 +1,10 @@
 ---
 layout: jumbotron-container
-title: Contact
+title: Contact 
 permalink: /contact/
 jumbotron:
     background-image: /assets/images/ai-bg.png
-    title: Join the AI Movement
+    title: Join the 96Boards.ai movement today!
 ---
 <div class="col-xs-12 text-center no-padding">
     <address>
