@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: jumbotron-container
 title: Products
 permalink: /products/
 description: |-
@@ -9,7 +9,6 @@ keywords: Consumer Edition Boards, Enterprise Developement Boards, ARM 64 Dev Bo
 css-package: products
 js-package: products
 ---
-
 <div id="grid">
 {% assign products_array =  site.products | where: 'product','true' | reverse %}
 {% for product in products_array %}
@@ -24,7 +23,7 @@ js-package: products
             </div>
             <div class="info">
                 <div class="product-title col-md-12 text-center">
-                    <a href="{{product.permalink}}">
+                    <a href="{% if product.permalink == "/products/sophon-edge/" %}https://www.96boards.org/product/sophon-edge/{% else %}{{product.permalink}}{% endif %}">
                         <h5>{{ product.title }}</h5>
                     </a>
                 </div>

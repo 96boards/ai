@@ -8,7 +8,7 @@ permalink: /products/sophon-edge/
 image:
     path: /assets/images/sophon-edge-tpu-board.png
     name: sophon-edge-tpu-board.png
-layout: 96boards-ai-generic
+layout: 96boards-ai-product
 css-package: products
 js-package: products
 available: false
@@ -16,4 +16,3 @@ product: true
 # redirect_to:
 # - https://www.96boards.org/product/sophon-edge/ai/
 ---
-
