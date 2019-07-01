@@ -8,7 +8,6 @@ theme: jumbo-jekyll-theme
 plugins:
   - jekyll-data
   - jekyll-readme-index
-# Files that should be excluded from the Jekyll build.
 exclude:
   - _site
   - help
