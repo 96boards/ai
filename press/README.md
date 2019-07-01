@@ -7,4 +7,4 @@ Thank you for your interest in 96board.ai. If you are not a member of the media 
 
 ### Press Contacts
 
-Marketing - [contact@linaro.org](mailto:contact@linaro.org)
+Steve Taylor, Director of Marketing [media@linaro.org](mailto:steve.taylor@linaro.org)

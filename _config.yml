@@ -8,19 +8,10 @@ theme: jumbo-jekyll-theme
 plugins:
   - jekyll-data
   - jekyll-readme-index
-# Files that should be excluded from the Jekyll build.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - .gitignore
-  - .git
-  - .asset-cache
-  - .sass-cache
-  - _site
-  - help
-  - node_modules
-  - build.sh
-  - README.md
+    - .asset-cache
+    - .sass-cache
+    - _site
 collections:
     products:
         output: true
