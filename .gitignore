@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 staging.96boards.ai
 production.96boards.ai
+Gemfile.lock
