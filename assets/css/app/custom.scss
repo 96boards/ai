@@ -1,6 +1,9 @@
 body {
     background-color: #0c0c0c;
 }
+#main-navigation button.navbar-toggle {
+    margin-right: -30px;
+}
 #brand-image {
     height: 66px;
     width: auto;
@@ -110,11 +113,4 @@ a.btn.btn-social-icon i {
 }
 .navbar-header {
 	z-index: 9999;
-}
-.members-panel .panel-heading {
-    border: 0;
-}
-img.img-responsive.ai-homepage-image {
-    height: 200px;
-    width: auto;
 }

@@ -1,6 +1,6 @@
 // Carousel configuration parameters
 $n: 4;
-$item-width: 700px;
+$item-width: 50vw;
 $item-separation: 150px;
 $viewer-distance: 500px;
 
@@ -22,7 +22,7 @@ $apothem: 482.842712474619px;
 	figure {
 		margin: 0;
 		
-		max-width: $item-width;
+		width: $item-width;
 		transform-style: preserve-3d;
 		transition: transform 0.5s;
 		transform-origin: 50% 50% (-$apothem);
