@@ -4,7 +4,7 @@ if [ -z "$JEKYLLSITEBUILD" ]; then
   export JEKYLLSITEBUILD=latest
 fi
 if [ -z "$JEKYLL_ENV" ]; then
-	export JEKYLL_ENV=staging
+  export JEKYLL_ENV=staging
 fi
 docker run \
   --cap-drop ALL \
