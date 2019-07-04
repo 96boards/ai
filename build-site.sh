@@ -12,7 +12,6 @@ docker run \
   -t \
   -p 4000:4000 \
   -e JEKYLL_ACTION \
-  -e JEKYLL_CONFIG \
   -e JEKYLL_ENV \
   -v /etc/passwd:/etc/passwd:ro \
   -v /etc/group:/etc/group:ro \
