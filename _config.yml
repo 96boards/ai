@@ -13,6 +13,7 @@ exclude:
   - help
   - node_modules
   - build-site.sh
+  - check-links.sh
   - CODEOWNERS
   - Gemfile
   - Gemfile.lock
