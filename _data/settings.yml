@@ -1,4 +1,4 @@
-favicon: favicon.png
+favicon: /assets/images/favicon.png
 search-label: 96Boards.ai
 name: 96Boards.ai
 slogan: Develop &amp; Prototype on the Latest Arm Technology
@@ -28,10 +28,10 @@ tags_enabled: true
 members:
     key: 96Boards_members
     excludes: [/contact/]
-    
+
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
-    
+
 # Settings for the home page
 home:
     #Content Background Image E.g. DeviceTree.org
@@ -88,11 +88,11 @@ blog:
         #       display_fields:
         #           title: title
         #           url: url
-  
+
 #Google analytics
-google:
-    tag_manager: GTM-NTTN9C3
-    
+google_analytics:
+    production: UA-16756069-27
+
 # Shema.org Setup -> used in the schema.html include.
 schema:
     enabled: true
@@ -100,11 +100,11 @@ schema:
         name: 96Boards.ai
         url: https://www.96Boards.ai
         address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
+            street: Harston Mill, Royston Rd
+            town: Harston
+            county: Cambridge
             post_code: CB22 7GG
-            country_code: UK 
+            country_code: UK
 
 # Disqus Comments
 
@@ -114,5 +114,3 @@ disqus:
 
 # Placeholder for Missing Images
 placeholder: placeholder.png
-
-
