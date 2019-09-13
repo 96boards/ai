@@ -1,0 +1,26 @@
+items:
+  - title: Qualcomm® Robotics RB3 Development Platform
+    url: https://www.96boards.org/product/rb3-platform/
+    description: >
+      The Robotics DragonBoard™ 845c development board is based on the Qualcomm® SDA845 processor.
+    image: /assets/images/db845c.png
+  - title: Hikey970
+    url: https://www.96boards.org/product/hikey970/ai/
+    description: >
+      HiKey970 is one of the world‘s first edge AI developing platform with a dedicated Neural-network Processing Unit (NPU).
+    image: /assets/images/hikey970-resized.png
+  - title: Rock960
+    url: https://www.96boards.org/product/rock960/ai/
+    description: >
+      The Rock960 is based on the RK3399 SoC which is a Dual Cortex-A72 + quad Cortex-A53 CPU, with up to 2.0GHz frequency.
+    image: /assets/images/rock960_front-resized.png
+  - title: Ultra96
+    url: https://www.96boards.org/product/ultra96/ai/
+    description: >
+      Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification.
+    image: /assets/images/ultra-96-front-hd-resized.png
+  - title: Sophon Edge
+    url: https://www.96boards.org/product/sophon-edge/ai/
+    description: >
+      Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification.
+    image: /assets/images/sophon-edge-tpu-board.png
