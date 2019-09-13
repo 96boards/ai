@@ -14,30 +14,18 @@ company-links:
       url: https://www.linaro.org/contact/
     - name: Press
       url: https://www.linaro.org/press/
-second-column:
-    title: AI Powered 96Boards
-    latest-posts: false
-    # Optionally display another list of items
-    items:
-      - name: Ultra96
-        url: /products/ultra96/
-      - name: HiKey970
-        url: /products/hikey970/
-      - name: Rock960
-        url: /products/rock960/
-      - name: Sophon Edge
-        url: https://www.96boards.org/product/sophon-edge/
+second-column: false
 # Custom Col on the right
 third-column:
-    title: Other Projects
+    title: AI Powered Boards
     items:
+      - name: Qualcomm® Robotics RB3 Development Platform
+        url: https://www.96boards.org/product/rb3-platform/
+      - name: Hikey970
+        url: https://www.96boards.org/product/hikey970/ai/
+      - name: Rock960
+        url: https://www.96boards.org/product/rock960/ai/
       - name: Ultra96
-        url: /products/ultra96/
-      - name: Linaro Connect
-        url: https://connect.linaro.org
-      - name: DeviceTree
-        url: https://www.devicetree.org
-      - name: OP-TEE
-        url: https://www.op-tee.org
-      - name: Linaro Developer Cloud
-        url: https://www.linaro.cloud
+        url: https://www.96boards.org/product/ultra96/ai/
+      - name: Sophon Edge
+        url: https://www.96boards.org/product/sophon-edge/ai/
