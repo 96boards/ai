@@ -148,3 +148,16 @@ div#github_controls a.btn {
     color: white;
     border: 1px solid #2d2d2d;
 }
+#particles-js > canvas {
+    z-index: 9;
+    width: 100% !important;
+}
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-image: url(main.css);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
