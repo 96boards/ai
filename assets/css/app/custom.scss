@@ -69,7 +69,7 @@ a.btn.btn-social-icon i {
     height:200px;
     background-size: cover;
     background-position: center center;
-    
+
     border-radius: 100px;
 }
 
@@ -82,7 +82,7 @@ a.btn.btn-social-icon i {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;    
+        margin-bottom: 20px;
     }
 }
 
@@ -117,4 +117,34 @@ a.btn.btn-social-icon i {
 img.img-responsive.ai-homepage-image {
     height: 200px;
     width: auto;
+}
+.board_image {
+    height: 300px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#flow_wrapper div#ai_boards_row {
+    background-color: #000000;
+}
+
+#flow_wrapper .board_item h4 {
+    color: #fafafa;
+}
+#flow_wrapper .board_item p {
+    color: #fafafa;
+}
+.row.content.github-edit {
+    background-color: black;
+}
+
+div#github_controls a#github_home {
+    background-color: black;
+    color: white;
+    border: 1px solid #2d2d2d;
+}
+div#github_controls a.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid #2d2d2d;
 }
