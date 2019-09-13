@@ -5,5 +5,6 @@
 //= require vendor/owl.carousel
 
 //= require app/main
+//= require app/particles
 //= require app/custom
 //= require app/home

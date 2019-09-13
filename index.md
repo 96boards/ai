@@ -24,5 +24,5 @@ flow:
     - row: custom_include_row
       source: ai_boards.html
 edit-on-github: true
+particles_js: true
 ---
-{% include members.html %}
