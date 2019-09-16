@@ -4,11 +4,11 @@ $(document).ready(function(){
     ai_boards_carousel.owlCarousel({
     items: 4,
     loop: false,
-    dots: true,
-    nav: false,
+    dots: false,
+    nav: true,
     margin: 10,
     autoplay: true,
-    rewind: true,
+    rewind: false,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive: {
@@ -16,10 +16,10 @@ $(document).ready(function(){
         items: 1
         },
         600: {
-        items: 2
+        items: 1
         },
         1000: {
-        items: 3
+        items: 1
         }
     }
     });
