@@ -30,3 +30,4 @@ defaults:
 readme_index:
   enabled:          true
   remove_originals: true
+include: ['_pages']
