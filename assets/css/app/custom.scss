@@ -163,3 +163,68 @@ div#github_controls a.btn {
     position: absolute;
     background-repeat: no-repeat;
 }
+#all_boards_row .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+#all_boards_row .row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+@media(min-width:1000px){
+    p.board_desc {
+        height: 167px;
+    }
+}
+
+#all_boards_row h4 {
+    height: 50px;
+}
+span.ai_logo:before {
+    content: url();
+    display:inline;
+    background-size: contain;
+    background-image: url('/assets/images/96Boards-ai-logo-dark.png');
+    display: inline-block;
+    background-position:center center;
+    background-repeat:no-repeat;
+    width: 30px;
+    height: 27px;
+    content:"";
+}
+
+#ai_boards_row button {
+    height: 40px;
+    margin-top:10px;
+    background-color: black !important;
+    width: 40px;
+    border: 1px solid #eee;
+    font-size: 24px;
+}
+#ai_boards_row button:hover {
+    height: 40px;
+    margin-top:10px;
+    background-color: white !important;
+    width: 40px;
+    font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+    #wrapper #flow_wrapper div#ai_title_row {
+        padding-top: 40px !important;
+    }
+}
+div#ai_title_row {
+    background-color: #000 !important;
+    color: white;
+}div#ai_title_row h1 {
+    color: white;
+}
+.owl-nav {
+    position: absolute;
+    top: -80px;
+    width: 100%;
+}
