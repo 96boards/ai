@@ -22,6 +22,8 @@ jumbotron:
                   url: https://www.linaro.org/news/horizon-robotics-joins-linaro-96boards-steering-committee/
 flow:
     - row: custom_include_row
+      source: ai_title_row.html
+    - row: custom_include_row
       source: ai_boards.html
 edit-on-github: true
 particles_js: true
