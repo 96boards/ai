@@ -1,41 +1,31 @@
-# Default is the Linaro Sprinkle
-image: white-96boards-ai-logo.png
-footer-image: /assets/images/Linaro-Sprinkle.png
-footer-image-url: /
-company-copyright-text: Linaro Limited
-# Columns to be added to the fospec-button center-block fade-in-twooter
-columns:
-    - title: AI Powered 96Boards
-      url: /products/
-      items:
-        - text: Rock960
-          url : /products/rock960/
-        - text: HiKey970
-          url : /products/hikey970/
-        - text: Ultra96
-          url : /products/ultra96/
-        - text: Sophon Edge
-          url : https://www.96boards.org/product/sophon-edge/
-    - title: Documentation
-      url: /documentation/
-      items:
-        - text: Rock960
-          url : https://www.96boards.org/documentation/consumer/rock/rock960/
-        - text: HiKey970
-          url : https://www.96boards.org/documentation/consumer/hikey/hikey970/
-        - text: Ultra96
-          url : https://www.96boards.org/documentation/consumer/ultra96/
-        - text: Sophon Edge
-          url : https://www.96boards.org/documentation/consumer/sophon-edge/
-    - title:
-      url:
-    - title:
-      url:
-# Company Related Links to be displayed in the footer.
-companylinks:
+# Copyright text to be displayed at the very bottom of the footer
+copyright-text: Linaro Limited
+# Set this to false if you do not want the Linaro logo in the footer.
+linaro-branding: true
+# Social Media Icons Row
+social-media-icons: true
+# Display the contact details section
+display-contact-details: true
+# These links are displayed at the very bottom of the footer.
+company-links:
     - name: Legal
-      url: /legal/
+      url: https://www.linaro.org/legal/
     - name: Contact
-      url: /contact/
+      url: https://www.linaro.org/contact/
     - name: Press
-      url: /press/
+      url: https://www.linaro.org/press/
+second-column: false
+# Custom Col on the right
+third-column:
+    title: AI Powered Boards
+    items:
+      - name: Qualcomm® Robotics RB3 Development Platform
+        url: https://www.96boards.org/product/rb3-platform/
+      - name: Hikey970
+        url: https://www.96boards.org/product/hikey970/ai/
+      - name: Rock960
+        url: https://www.96boards.org/product/rock960/ai/
+      - name: Ultra96
+        url: https://www.96boards.org/product/ultra96/ai/
+      - name: Sophon Edge
+        url: https://www.96boards.org/product/sophon-edge/ai/

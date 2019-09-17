@@ -1,15 +1,26 @@
 $(document).ready(function(){
-    $("#rock960").click(function(){
-        location.href='/products/rock960/';
+    var ai_boards_carousel = $("#ai_boards_slider");
+
+    ai_boards_carousel.owlCarousel({
+    items: 4,
+    loop: false,
+    dots: false,
+    nav: true,
+    margin: 10,
+    autoplay: true,
+    rewind: false,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+        items: 1
+        },
+        600: {
+        items: 1
+        },
+        1000: {
+        items: 1
+        }
+    }
     });
-    $("#hikey970").click(function(){
-        location.href='/products/hikey970/';
-    });
-    $("#ultra96").click(function(){
-        location.href='/products/ultra96/';
-    });
-    if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chrome/)) {
-        $("#ai-board-carousel").hide();
-        $("#safari-carousel").show();
-     }
 });

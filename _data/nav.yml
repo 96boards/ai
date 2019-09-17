@@ -9,36 +9,10 @@ search:
 universal-nav: true
 brand:
     text: 96Boards.ai
-    image: 
+    image:
         enabled: true
-        name: 96Boards-ai-logo-revised.png
+        path: /assets/images/96Boards-ai-logo-dark.png
     url: /
 pages:
-    - title: About
-      url: /about/
-    - title: Products
-      options:
-        - text: All Products
-          url: /products/
-        - text: Hikey970
-          url: /products/hikey970/
-        - text: Ultra96
-          url: /products/ultra96/
-        - text: Rock960
-          url: /products/rock960/
-        - text: Sophon Edge
-          url: https://www.96boards.org/product/sophon-edge/
-    - title: Documentation
-      options:
-        - text: All Documentation
-          url: /documentation/
-        - text: Hikey970
-          url: https://www.96boards.org/documentation/consumer/hikey/hikey970/
-        - text: Ultra96
-          url: https://www.96boards.org/documentation/consumer/ultra96/
-        - text: Rock960
-          url: https://www.96boards.org/documentation/consumer/rock/rock960/
-        - text: Sophon Edge
-          url: https://www.96boards.org/documentation/consumer/sophon-edge/
     - title: Contact
-      url: /contact/
+      url: https://www.96boards.org/contact/

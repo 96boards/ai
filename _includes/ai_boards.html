@@ -1,0 +1,21 @@
+<div class="row" id="ai_boards_row">
+        <div id="ai_boards_carousel_wrapper">
+            <div class="owl-carousel owl-theme" id="ai_boards_slider">
+                {% for board in site.data.boards.items %}
+                    <div class="item board_item text-center">
+                        <div class="board_image" style="background-image: url({{board.image}});"></div>
+                        <h4>{{board.title}}</h4>
+                        <p>
+                            {{board.description}}
+                        </p>
+                        <a class="btn btn-primary" href="{{board.url}}">
+                            View Board
+                        </a>
+                        <a class="btn btn-secondary" href="/boards/">
+                            View All
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+</div>

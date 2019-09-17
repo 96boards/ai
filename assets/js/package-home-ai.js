@@ -8,6 +8,5 @@
 
 //= require app/main
 //= require app/particles
-//= require app/home
 //= require app/carousel
 //= require app/custom

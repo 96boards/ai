@@ -1,8 +1,7 @@
-favicon: favicon.png
+favicon: /assets/images/favicon.png
 search-label: 96Boards.ai
 name: 96Boards.ai
 slogan: Develop &amp; Prototype on the Latest Arm Technology
-
 # Breadcrumb Settings
 # breadcrumb:
 #     image: banner.jpg
@@ -10,18 +9,15 @@ slogan: Develop &amp; Prototype on the Latest Arm Technology
 #Content Repo for static site.
 # Used for the edit on github include
 edit-on-github:
-    enabled: false
-    repo: https://github.com/96Boards/website
-    docs: https://github.com/96Boards/documentation
-
+    enabled: true
+    repo: https://github.com/96Boards/ai
 # Mailchimp settings
 mailchimp:
     enabled: true
     id: fdc7b4b109
-    
 # Footer Newsletter toggle.
 newsletter:
-    enabled: true
+    enabled: false
     url: https://linaro.us3.list-manage.com/subscribe?u=14baaae786342d0d405ee59c2&id=fdc7b4b109
 
 
@@ -32,10 +28,10 @@ tags_enabled: true
 members:
     key: 96Boards_members
     excludes: [/contact/]
-    
+
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
-    
+
 # Settings for the home page
 home:
     #Content Background Image E.g. DeviceTree.org
@@ -58,7 +54,6 @@ home:
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: 96Boards
 linkedin_username: 96Boards
-google_plus_username: 106009833460292139774
 facebook_username: 96Boards
 youtube_username: channel/UCjawhk_W1QnJs3pKIsKLJNg/
 twitter_username: 96Boards
@@ -93,11 +88,11 @@ blog:
         #       display_fields:
         #           title: title
         #           url: url
-  
+
 #Google analytics
-google:
-    tag_manager: GTM-NTTN9C3
-    
+google_analytics:
+    production: UA-16756069-27
+
 # Shema.org Setup -> used in the schema.html include.
 schema:
     enabled: true
@@ -105,11 +100,11 @@ schema:
         name: 96Boards.ai
         url: https://www.96Boards.ai
         address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
+            street: Harston Mill, Royston Rd
+            town: Harston
+            county: Cambridge
             post_code: CB22 7GG
-            country_code: UK 
+            country_code: UK
 
 # Disqus Comments
 
@@ -119,5 +114,3 @@ disqus:
 
 # Placeholder for Missing Images
 placeholder: placeholder.png
-
-

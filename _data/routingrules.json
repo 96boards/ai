@@ -1,4 +1,7 @@
 [
     "^/documentation/consumer/rock960/installation(/?|/index.html)$ /documentation/consumer/rock960/installation/ [R,L,NC]",
-    "^/products/sophon-edge(/?|/index.html)$ https://www.96boards.org/product/sophon-edge/ [R,L,NC]"
+    "^/products/sophon-edge(/?|/index.html)$ https://www.96boards.org/product/sophon-edge/ai/ [R,L,NC]",
+    "^/products/hikey970(/?|/index.html)$ https://www.96boards.org/product/hikey970/ai/ [R,L,NC]",
+    "^/products/ultra96(/?|/index.html)$ https://www.96boards.org/product/ultra96/ai/ [R,L,NC]",
+    "^/products/rock960(/?|/index.html)$ https://www.96boards.org/product/rock960/ai/ [R,L,NC]"
 ]

@@ -9,9 +9,15 @@ plugins:
   - jekyll-data
   - jekyll-readme-index
 exclude:
-    - .asset-cache
-    - .sass-cache
-    - _site
+  - _site
+  - help
+  - node_modules
+  - build-site.sh
+  - check-links.sh
+  - CODEOWNERS
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 collections:
     products:
         output: true
@@ -24,3 +30,4 @@ defaults:
 readme_index:
   enabled:          true
   remove_originals: true
+include: ['_pages']
