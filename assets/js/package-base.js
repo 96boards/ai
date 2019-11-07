@@ -2,8 +2,9 @@
 //= require vendor/bootstrap
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
-//= require vendor/ls.unveilhooks
+//= require vendor/owl.carousel
 
 //= require app/main
-//= require app/news
+//= require app/ai_boards
+//= require app/particles
 //= require app/custom

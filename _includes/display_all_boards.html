@@ -1,18 +1,5 @@
 <div class="row" id="all_boards_row">
     <div class="container">
-        <div class="row">
-        {% for board in site.data.boards.items %}
-            <div class="col-xs-12 col-sm-4 board_col">
-                <div class="board_image" style="background-image: url({{board.image}});"></div>
-                <h4>{{board.title}}</h4>
-                <p class="board_desc">
-                    {{board.description}}
-                </p>
-                <a class="btn btn-primary board_button" href="{{board.url}}">
-                    View Board
-                </a>
-            </div>
-        {% endfor %}
-        </div>
+        <div class="row" id="ai_boards_grid"></div>
     </div>
 </div>

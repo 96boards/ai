@@ -1,6 +1,6 @@
 ---
 layout: flow
-js-package: home
+js-package: base
 title: 96Boards.Ai - AI powered Arm-based development boards.
 description: >
     96Boards.ai provides access to the latest Arm-based AI accelerated hardware & software for Android and Linux.
