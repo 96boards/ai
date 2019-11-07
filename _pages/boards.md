@@ -1,7 +1,7 @@
 ---
 title: All AI 96Boards
 permalink: /boards/
-js-package: home
+js-package: base
 description: >
     View the collection of AI-powered 96Boards.
 layout: flow
