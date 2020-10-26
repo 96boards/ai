@@ -22,5 +22,25 @@ items:
   - title: Sophon Edge
     url: https://www.96boards.org/product/sophon-edge/ai/
     description: >
-      Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification.
+      The Bitmain Sophon(TM) Edge Developer Board is designed for bringing powerful Deep Learning capability to various types of applications through its quick prototype development.
     image: /assets/images/sophon-edge-tpu-board.png
+  - title: TB-96AI
+    url: https://www.96boards.org/product/tb-96ai/ai/
+    description: >
+      TB-96AI is a powerful core board for artificial intelligence. Carrier Board developed by Xiamen Beiqi Technology Co., Ltd. can form a complete development board or evaluation board.
+    image: /assets/images/tb-96ai.jpg
+  - title: TB-96AIoT
+    url: https://www.96boards.org/product/tb-96aiot/ai/
+    description: >
+      The TB-96AIoT is a low-power, high-powered core board for the AIoT field. It is equipped with a powerful neural network processing unit (NPU) and is compatible with a variety of mainstream inference models such as caffe and tensor flow.
+    image: /assets/images/tb-96aiot.jpg
+  - title: AI_ML
+    url: https://www.96boards.org/product/aiml/ai/
+    description: >
+      The i.MX 8X SoC is a feature-rich system containing a quad-core, 64-bit Arm A35 processor, Vulkan GPU with four shader cores and VPU capable of decoding 4K video at 30 fps. These features alone make the AI_ML board highly capable in a wide range of applications involving video.
+    image: /assets/images/aiml.jpg
+  - title: Thor96
+    url: https://www.96boards.org/product/thor96/ai/
+    description: >
+      The Thor96 Board is a single-board computer powered by the NXP i.MX 8M SoC, incorporating a quad-core 64-bit Arm-A53, dedicated GPU and VPU, 4K support, Wi-Fi, Bluetooth ® wireless technology and a wide range of I/O.
+    image: /assets/images/thor96.jpg
