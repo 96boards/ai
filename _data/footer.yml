@@ -31,7 +31,7 @@ third-column:
         url: https://www.96boards.org/product/aiml/ai/
       - name: Thor96
         url: https://www.96boards.org/product/thor96/ai/
-      - name: TB96-AI
-        url: https://www.96boards.org/product/tb96-ai/ai/
-      - name: TB96-AIoT
-        url: https://www.96boards.org/product/tb96-aiot/ai/
+      - name: TB-96AI
+        url: https://www.96boards.org/product/tb-96ai/ai/
+      - name: TB-96AIoT
+        url: https://www.96boards.org/product/tb-96aiot/ai/
