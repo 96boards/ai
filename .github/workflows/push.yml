@@ -28,7 +28,7 @@ jobs:
         uses: linaro-its/directory-push-and-pop@v1.1
         with:
           cacheDirectory: /srv/site-builds
-          namedDirectory: ${{ env.SITE_URL }}
+          namedDirectory: website/${{ env.SITE_URL }}
 
       - name: Build site
         run: /srv/github-action-scripts/build-jekyll-site.sh
@@ -56,6 +56,9 @@ jobs:
     needs:  test-routing-rules
     runs-on: self-hosted
     steps:
+      - name: Initialise environment
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
       - name: Make staging directory
         run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
 
