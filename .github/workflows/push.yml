@@ -28,7 +28,8 @@ jobs:
         uses: linaro-its/directory-push-and-pop@v1.1
         with:
           cacheDirectory: /srv/site-builds
-          namedDirectory: website/${{ env.SITE_URL }}
+          namedDirectory: ${{ env.SITE_URL }}
+          destinationDirectory: $GITHUB_WORKSPACE/website
 
       - name: Build site
         run: /srv/github-action-scripts/build-jekyll-site.sh
