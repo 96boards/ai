@@ -29,7 +29,7 @@ jobs:
         with:
           cacheDirectory: /srv/site-builds
           namedDirectory: ${{ env.SITE_URL }}
-          destinationDirectory: ${GITHUB_WORKSPACE}/website
+          destinationDirectory: ${process.env.GITHUB_WORKSPACE}/website
 
       - name: Build site
         run: /srv/github-action-scripts/build-jekyll-site.sh
