@@ -4,15 +4,15 @@
 # - Toggle Search Bar.
 # Search Config
 search:
-    enabled: false
-    label: 96BoardsAI
-universal-nav: true
+  enabled: false
+  label: 96BoardsAI
+universal_nav: true
 brand:
-    text: 96Boards.ai
-    image:
-        enabled: true
-        path: /assets/images/96Boards-ai-logo-dark.png
-    url: /
+  text: 96Boards.ai
+  image:
+    enabled: true
+    path: /assets/images/96Boards-ai-logo-dark.png
+  url: /
 pages:
-    - title: Contact
-      url: https://www.96boards.org/contact/
+  - title: Contact
+    url: https://www.96boards.org/contact/
