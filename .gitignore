@@ -5,3 +5,5 @@ _site
 staging.96boards.ai
 production.96boards.ai
 Gemfile.lock
+.jekyll-cache
+.asset_pipeline
