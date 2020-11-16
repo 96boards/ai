@@ -1,186 +1,183 @@
 div#hikey970-image {
-    width: 100%;
-    height: 400px;
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #hikey970 h1.text-center {
-    color: white;
-    font-size: 70px;
+  color: white;
+  font-size: 70px;
 }
 
 #hikey970-intro-content h3 {
-    color: red;
-    font-size: 40px;
-    font-weight: normal;
+  color: red;
+  font-size: 40px;
+  font-weight: normal;
 }
 
 div#super-edge-ai {
-    padding: 10px 50px;
+  padding: 10px 50px;
 }
 
 ul#board-features {
-    color: white;
-    font-size: 26px;
-    margin-top: 28px;
+  color: white;
+  font-size: 26px;
+  margin-top: 28px;
 }
-
-
 
 //Tags
 div#hikey970-tags {
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    background-color: #fff;
-    padding: 4px;
-    color: #000;
-    font-size: 12px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: #fff;
+  padding: 4px;
+  color: #000;
+  font-size: 12px;
 }
 
 .ai-icon {
-    height: 10vh;
-    margin-top: 5px;
-    object-fit: contain;
-    -moz-user-select: none;
-     -khtml-user-select: none;
-     -webkit-user-select: none;
-     user-select: none;
+  height: 10vh;
+  margin-top: 5px;
+  object-fit: contain;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #hikey970-tags h3 {
-    margin-top: 10px;
-    font-size: 22px;
+  margin-top: 10px;
+  font-size: 22px;
 }
 
-div#hikey970 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122231+0,081118+100 */
-    background: #091019; /* Old browsers */
+div#hikey970 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122231+0,081118+100 */
+  background: #091019; /* Old browsers */
 }
 
-div#hikey970-intro-content{
-    
-    background-image:url(/assets/images/hikey970-optimized.png);
-    background:
-    /* top, transparent black, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+div#hikey970-intro-content {
+  background-image: url(/assets/images/hikey970-optimized.png);
+  background:
+    /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    /* bottom, image */
-    url(/assets/images/hikey970-optimized.png);
+    /* bottom, image */ url(/assets/images/hikey970-optimized.png);
 
-    background-repeat:no-repeat;
-    background-position-x: right;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 // Descriptions
 
-div#hikey970-descriptions {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#081118+0,122231+99 */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#081118+0,122231+100 */
-background: #081118; /* Old browsers */
-background: -moz-linear-gradient(top, #081118 0%, #122231 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #081118 0%,#122231 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #081118 0%,#122231 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081118', endColorstr='#122231',GradientType=0 ); /* IE6-9 */
+div#hikey970-descriptions {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#081118+0,122231+99 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#081118+0,122231+100 */
+  background: #081118; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #081118 0%,
+    #122231 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #081118 0%,
+    #122231 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #081118 0%,
+    #122231 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081118', endColorstr='#122231',GradientType=0 ); /* IE6-9 */
 }
 
 div#hikey970-robots-platform {
-    background: #122231; /* Old browsers */
-    background: -moz-linear-gradient(top, #122231 0%, #081118 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #122231 0%,#081118 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #122231 0%,#081118 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122231', endColorstr='#081118',GradientType=0 ); /* IE6-9 */
+  background: #122231; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #122231 0%,
+    #081118 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #122231 0%,
+    #081118 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #122231 0%,
+    #081118 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122231', endColorstr='#081118',GradientType=0 ); /* IE6-9 */
 }
 
 div#hikey970-automobile-platform {
-    background: #081118; /* Old browsers */
-    background: -moz-linear-gradient(top, #081118 0%, #122231 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #081118 0%,#122231 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #081118 0%,#122231 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081118', endColorstr='#122231',GradientType=0 ); /* IE6-9 */
+  background: #081118; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #081118 0%,
+    #122231 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #081118 0%,
+    #122231 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #081118 0%,
+    #122231 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081118', endColorstr='#122231',GradientType=0 ); /* IE6-9 */
 }
 
 div#hikey970-smart-city-platform {
-    background: #122231; /* Old browsers */
-    background: -moz-linear-gradient(top, #122231 0%, #081118 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #122231 0%,#081118 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #122231 0%,#081118 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122231', endColorstr='#081118',GradientType=0 ); /* IE6-9 */
+  background: #122231; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #122231 0%,
+    #081118 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #122231 0%,
+    #081118 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #122231 0%,
+    #081118 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122231', endColorstr='#081118',GradientType=0 ); /* IE6-9 */
 }
 
 .title-row {
-    background-color:#fff;
-    color:#000;
-    text-align: center;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
 }
 
 div#hikey970-tag-descriptions {
-    margin-top:20px;
-    margin-bottom:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .content-section p {
-    color: white;
+  color: white;
 }
 
 .content-section h3 {
-    color: #ff0101;
+  color: #ff0101;
 }
 
 #hikey970-descriptions .col-sm-4 {
-    padding:0 20px;
-}
-
-
-@media(max-width:$screen-sm-min){
-    
-    div#hikey970-tag-descriptions {
-        background-color: #011121 !important;
-        margin-top:10px
-    }
-    
-    div#hikey970-image {
-        width: 100%;
-        height: 150px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    
-    #hikey970 h1.text-center {
-        color: white;
-        font-size: 40px;
-    }
-    
-    #hikey970-intro-content h3 {
-        color: red;
-        font-size: 28px;
-        font-weight: normal;
-    }
-    
-    div#super-edge-ai {
-        padding: 10px 30px;
-    }
-
-    ul#board-features {
-        color: white;
-        font-size: 22px;
-        margin-top: 28px;
-    }
-    
-    #hikey970-tags h3 {
-        margin-top: 10px;
-        font-size: 10px;
-    }
-    
-    .content-section h3 {
-        font-size: 16px;
-    }
-    
-    
+  padding: 0 20px;
 }
 #wrapper .content-section p {
-    color: white;
+  color: white;
 }
 #wrapper .content-section h3 {
-    color: #ff0c0c;
+  color: #ff0c0c;
 }
