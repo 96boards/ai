@@ -10,7 +10,7 @@ destination: production.96boards.ai
 production: true
 google_analytics:
   enabled: true
-  code: UA-16756069-27
+  code: GTM-NTTN9C3
   cookies:
     necessary:
       - name: cookieControl
